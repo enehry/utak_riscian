@@ -9,6 +9,7 @@ class DialogWidget extends StatelessWidget {
     required this.title,
     required this.image,
     required this.text,
+    this.description,
     this.isOkCancel = false,
   }) : super(key: key);
 
@@ -16,6 +17,7 @@ class DialogWidget extends StatelessWidget {
   final String title;
   final String image;
   final String text;
+  final String? description;
   final bool isOkCancel;
 
   @override
@@ -60,6 +62,12 @@ class DialogWidget extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyText1,
                   textAlign: TextAlign.center,
                 ),
+                description != null ?
+                Text(
+                  description!,
+                  style: Theme.of(context).textTheme.bodyText1,
+                  textAlign: TextAlign.center,
+                ) : SizedBox(),
                 SizedBox(
                   height: 15,
                 ),

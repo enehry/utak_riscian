@@ -21,8 +21,9 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   void dispose() {
-    super.dispose();
     _controller.dispose();
+    super.dispose();
+
   }
 
   @override
@@ -30,6 +31,8 @@ class _SplashScreenState extends State<SplashScreen>
     super.initState();
     context.read<AudioPlayerProvider>().playSound('assets/sounds/load.wav');
   }
+
+
 
   @override
   Widget build(BuildContext context) {

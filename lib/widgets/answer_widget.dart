@@ -11,6 +11,7 @@ class AnswerWidget extends StatelessWidget {
     return Container(
       child: Consumer<GameScreenProvider>(builder: (context, provider, widget) {
         List<String> choice = provider.choices;
+
         List<String> userAnswer = provider.userAnswer;
 
         int ansLength = (userAnswer.length <= 8) ? userAnswer.length : 8;
@@ -68,6 +69,7 @@ class AnswerWidget extends StatelessWidget {
                                 title: 'CORRECT',
                                 text: 'You guess it Right \n +20 COINS',
                                 image: 'assets/icons/coin.svg',
+                                description:  provider.questions[provider.stage].definition,
                                 onPressed: () {
                                   Navigator.pop(context);
                                   provider.resetCorrect();
