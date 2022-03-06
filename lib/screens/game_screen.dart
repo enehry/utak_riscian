@@ -16,7 +16,7 @@ class GameScreen extends StatelessWidget {
       body: context.watch<GameScreenProvider>().isFinish
           ? Center(
               child: Text(
-                'TAPOS NA NABITIN KA BA ?',
+                'Thank you for playing! This game is for research purposes only. No copyright intended.',
                 style: Theme.of(context).textTheme.headline2,
               ),
             )
