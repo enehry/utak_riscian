@@ -41,7 +41,7 @@ class SmallButtonWidget extends StatelessWidget {
         width: title != 'HINT' && (h + 100 < w && w <= 923) ? 35.0 : 45.0,
         height: 45.0,
         color: color,
-        child: Text(title, style: Theme.of(context).textTheme.bodyText2),
+        child: Text(title, style: Theme.of(context).textTheme.bodyText1),
         onPressed: () {
           context
               .read<AudioPlayerProvider>()

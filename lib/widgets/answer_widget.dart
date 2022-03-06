@@ -66,8 +66,8 @@ class AnswerWidget extends StatelessWidget {
                               barrierDismissible: false,
                               context: context,
                               builder: (builder) => DialogWidget(
-                                title: 'CORRECT',
-                                text: 'You guess it Right \n +20 COINS',
+                                title: 'CORRECT!',
+                                text: 'You guessed it right. \n +20 COINS',
                                 image: 'assets/icons/coin.svg',
                                 description:  provider.questions[provider.stage].definition,
                                 onPressed: () {

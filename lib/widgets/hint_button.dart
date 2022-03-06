@@ -62,7 +62,7 @@ class HintButton extends StatelessWidget {
                 );
               }
             },
-            color: Theme.of(context).primaryColor,
+            color: Theme.of(context).colorScheme.secondary,
           )
         ],
       ),

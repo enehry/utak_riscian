@@ -116,7 +116,7 @@ class AboutScreen extends StatelessWidget {
                                 style: TextStyle(fontWeight: FontWeight.w300),
                               ),
                               Text(
-                                'Nehry Dedoro',
+                                'Dedoro',
                                 style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 20.0),
@@ -130,13 +130,12 @@ class AboutScreen extends StatelessWidget {
                                   SignInButton(
                                     Buttons.Facebook,
                                     shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(10.0),
+                                      borderRadius: BorderRadius.circular(50.0),
                                     ),
                                     mini: true,
                                     elevation: 4.0,
                                     onPressed: () {
-                                      _launchURL(
-                                          'https://www.facebook.com/nehry.08/');
+                                      _launchURL('link/');
                                     },
                                   ),
                                   SizedBox(
@@ -145,12 +144,12 @@ class AboutScreen extends StatelessWidget {
                                   SignInButton(
                                     Buttons.GitHub,
                                     shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(10.0),
+                                      borderRadius: BorderRadius.circular(50.0),
                                     ),
                                     mini: true,
                                     elevation: 4.0,
                                     onPressed: () {
-                                      _launchURL('https://github.com/enehry');
+                                      _launchURL('link');
                                     },
                                   ),
                                   SizedBox(
@@ -164,8 +163,7 @@ class AboutScreen extends StatelessWidget {
                                     mini: true,
                                     elevation: 4.0,
                                     onPressed: () {
-                                      _launchURL(
-                                          'mailto:enehry@gmail.com?subject=&body=');
+                                      _launchURL('link?subject=&body=');
                                     },
                                   )
                                 ],
@@ -196,7 +194,7 @@ class AboutScreen extends StatelessWidget {
                               backgroundColor: Colors.white,
                               child: CircleAvatar(
                                 foregroundImage:
-                                    AssetImage('assets/icons/nehry.png'),
+                                    AssetImage('assets/icons/-.png'),
                                 radius: 40.0,
                               ),
                             ),

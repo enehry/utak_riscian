@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:utak_riscian/providers/audio_player_provider.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
 import 'package:utak_riscian/providers/theme_provider.dart';
-import 'package:utak_riscian/question_bank.dart';
 import 'package:utak_riscian/screens/splash_screen.dart';
 import 'package:utak_riscian/screens/wrapper.dart';
 import 'package:utak_riscian/services/storage_util.dart';

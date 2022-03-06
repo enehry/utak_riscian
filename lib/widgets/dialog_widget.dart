@@ -52,14 +52,14 @@ class DialogWidget extends StatelessWidget {
               children: <Widget>[
                 Text(
                   title,
-                  style: Theme.of(context).textTheme.headline2,
+                  style: Theme.of(context).textTheme.headline3,
                 ),
                 SizedBox(
                   height: 10,
                 ),
                 Text(
                   text,
-                  style: Theme.of(context).textTheme.bodyText1,
+                  style: Theme.of(context).textTheme.bodyText2,
                   textAlign: TextAlign.center,
                 ),
                 description != null ?

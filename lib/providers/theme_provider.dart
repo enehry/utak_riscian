@@ -23,21 +23,21 @@ class ThemeProvider with ChangeNotifier {
   }
 
   ThemeData darkTheme() => ThemeData(
-        scaffoldBackgroundColor: Color(0xFF3D3D3D),
+        scaffoldBackgroundColor: Color(0xFffaedcd),
         primaryColor: Color(0xFF2D2D2D),
-        backgroundColor: Color(0xFF2D2D2D),
+        backgroundColor: Color(0xFFfaedcd),
         textTheme: TextTheme(
           headline1: TextStyle(
             fontSize: 24.0,
             color: Color(0xFFE0E0E0).withOpacity(0.9),
-            fontFamily: 'RobotoSlab',
+            fontFamily: 'Mont',
             fontWeight: FontWeight.bold,
             letterSpacing: 2.0,
           ),
           headline2: TextStyle(
             fontSize: 24.0,
             color: Color(0xFFE0E0E0),
-            fontFamily: 'RobotoSlab',
+            fontFamily: 'Mont',
           ),
           headline3: TextStyle(
             fontSize: 20.0,
@@ -48,7 +48,7 @@ class ThemeProvider with ChangeNotifier {
             fontSize: 14.0,
             color: Color(0xFFE0E0E0),
             fontWeight: FontWeight.w500,
-            fontFamily: 'RobotoSlab',
+            fontFamily: 'Mont',
           ),
           bodyText2: TextStyle(
             fontSize: 18.0,
@@ -61,40 +61,41 @@ class ThemeProvider with ChangeNotifier {
       );
 
   ThemeData classicTheme() => ThemeData(
-        scaffoldBackgroundColor: Color(0xFF283F3B),
+        scaffoldBackgroundColor: Color(0xFFfaedcd),
         primaryColor: Color(0xFF99DDC8),
-        backgroundColor: Color(0xFF283F3B),
+        backgroundColor: Color(0xFFfaedcd),
         textTheme: TextTheme(
           headline1: TextStyle(
             fontSize: 24.0,
-            color: Color(0xFF283F3B).withOpacity(0.9),
-            fontFamily: 'RobotoSlab',
+            color: Color(0xFF606C38),
+            fontFamily: 'Mont',
             fontWeight: FontWeight.bold,
             letterSpacing: 2.0,
           ),
           headline2: TextStyle(
             fontSize: 24.0,
-            color: Colors.white,
-            fontFamily: 'RobotoSlab',
+            color: Color(0xFFfaedcd),
+            fontFamily: 'Mont',
           ),
           headline3: TextStyle(
             fontSize: 20.0,
-            color: Colors.white,
-            fontWeight: FontWeight.w300,
+            color: Color(0xFF283F3B),
+            fontFamily: 'Mont',
+            fontWeight: FontWeight.bold,
           ),
           bodyText1: TextStyle(
             fontSize: 14.0,
             color: Colors.white,
             fontWeight: FontWeight.w500,
-            fontFamily: 'RobotoSlab',
+            // fontFamily: 'RobotoSlab',
           ),
           bodyText2: TextStyle(
-            fontSize: 18.0,
+            fontSize: 14.0,
             color: Color(0xFF283F3B),
-            fontWeight: FontWeight.bold,
+            fontFamily: 'Mont',
           ),
         ),
         colorScheme:
-            ColorScheme.fromSwatch().copyWith(secondary: Color(0xFFC4C4C4)),
+            ColorScheme.fromSwatch().copyWith(secondary: Color(0xFF606C38)),
       );
 }
