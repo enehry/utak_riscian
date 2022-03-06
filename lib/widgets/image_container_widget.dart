@@ -31,7 +31,7 @@ class ImageContainerWidget extends StatelessWidget {
                 ),
               )
             ],
-            color: Theme.of(context).primaryColor,
+            color: Theme.of(context).colorScheme.secondary,
           ),
           child: GestureDetector(
             onTap: () {

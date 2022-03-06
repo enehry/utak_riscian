@@ -77,6 +77,9 @@ flutter:
     - family: RobotoSlab
       fonts:
         - asset: assets/font/RobotoSlab-Regular.ttf
+    - family: Mont
+      fonts:
+        - asset: assets/font/Mont.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
