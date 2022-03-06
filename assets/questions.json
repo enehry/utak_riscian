@@ -2,8 +2,54 @@
   "questions" : [
     { 
       "id" : 1,
-      "answer" : "arc",
-      "definition" : "Aircraft Repair Center"
+      "answer" : "mirror",
+      "definition" : "A mirror is found attached either to the pillar or the lower end of the arm. It consists of a concave mirror on one side and a plain mirror on the other side. It can be used for the reflection of light rays into the microscope."
+    },
+    { 
+      "id" : 2,
+      "answer" : "arm",
+      "definition" : "The entire microscope is handled by a strong and curved structure known as the arm."
+    },
+    { 
+      "id" : 3,
+      "answer" : "base",
+      "definition" : "The base is a U-shaped structure and supports the entire weight of the compound microscope."
+    }, 
+    { 
+      "id" : 4,
+      "answer" : "pillar",
+      "definition" : "The pillar is a vertical projection. It stands by resting on the base and supports the stage."
+    }, 
+    { 
+      "id" :5,
+      "answer" : "stage",
+      "definition" : "The stage is a flat and rectangular plate that is connected to the arm’s lower end. The specimen is placed on the stage for studying and examining the various features. The center of the stage has a hole through which light can pass."
+    },
+    { 
+      "id" :6,
+      "answer" : "diaphragm",
+      "definition" : "The diaphragm is fastened below the stage. It controls and adjusts the intensity of light that passes into the microscope. The diaphragm can be of two types: Disc diaphragm or Iris diaphragm."
+    },
+    { 
+      "id" :7,
+      "answer" : "clips",
+      "definition" : "The upper part of the stage is connected to two clips. The slide can be held in its position with the help of the clips."
+    },
+    { 
+      "id" :8,
+      "answer" : "nose piece",
+      "definition" : "The nose piece is circular and has a rotating metal part that is connected to the body tube’s lower end. The nose piece has three holes wherein the objective lenses are embedded."
+    },
+    { 
+      "id" :9,
+      "answer" : "body tube",
+      "definition" : "A body tube is an upper part of the arm of the microscope comprising a hollow and tubular structure known as the body tube. The body tube can be shifted down and up using the adjustment knobs."
+    },
+    { 
+      "id" :10,
+      "answer" : "cells",
+      "definition" : "Cells are the basic building blocks of all living things. The human body is composed of trillions of cells. They provide structure for the body, take in nutrients from food, convert those nutrients into energy, and carry out specialized functions. Cells also contain the body’s hereditary material and can make copies of themselves."
     }
   ]
+
 }

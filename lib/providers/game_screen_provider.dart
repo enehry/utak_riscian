@@ -43,8 +43,8 @@ class GameScreenProvider extends ChangeNotifier {
     } catch (e) {
       print(e);
     }
-    questions
-        .sort((curr, next) => curr.answer.length.compareTo(next.answer.length));
+    // questions
+    //     .sort((curr, next) => curr.answer.length.compareTo(next.answer.length));
     setQuestion(_stage);
     notifyListeners();
   }
