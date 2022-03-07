@@ -54,7 +54,7 @@ class AboutScreen extends StatelessWidget {
                 height: 10.0,
               ),
               Text(
-                'Math Pics One Word',
+                'Utak Riscian',
                 style: Theme.of(context).textTheme.headline3,
               ),
               Text(
@@ -79,6 +79,26 @@ class AboutScreen extends StatelessWidget {
                           ),
                           Text(
                             'Project of',
+                            style: Theme.of(context).textTheme.headline2,
+                          ),
+                          Text(
+                            'Christian Josef Bolivar',
+                            style: Theme.of(context).textTheme.bodyText1,
+                          ),
+                          Text(
+                            'Shania Buenaventura',
+                            style: TextStyle(fontWeight: FontWeight.w300),
+                          ),
+                          Text(
+                            'Yrhen Dedoro',
+                            style: TextStyle(fontWeight: FontWeight.w300),
+                          ),
+                          Text(
+                            'Micka Porto',
+                            style: TextStyle(fontWeight: FontWeight.w300),
+                          ),
+                          Text(
+                            'Ralph Ellis Vasquez',
                             style: TextStyle(fontWeight: FontWeight.w300),
                           ),
                           SizedBox(
@@ -116,7 +136,7 @@ class AboutScreen extends StatelessWidget {
                                 style: TextStyle(fontWeight: FontWeight.w300),
                               ),
                               Text(
-                                'Dedoro',
+                                'hatdog',
                                 style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 20.0),

@@ -37,12 +37,12 @@
     },
     { 
       "id" :8,
-      "answer" : "nose piece",
+      "answer" : "nose_piece",
       "definition" : "The nose piece is circular and has a rotating metal part that is connected to the body tube’s lower end. The nose piece has three holes wherein the objective lenses are embedded."
     },
     { 
       "id" :9,
-      "answer" : "body tube",
+      "answer" : "body_tube",
       "definition" : "A body tube is an upper part of the arm of the microscope comprising a hollow and tubular structure known as the body tube. The body tube can be shifted down and up using the adjustment knobs."
     },
     { 
@@ -76,7 +76,7 @@
     },
     { 
       "id" :16,
-      "answer" : "cell membrane",
+      "answer" : "cell_membrane",
       "definition" : "The cell membrane contains the contents of the cell and provides a barrier to control what enters and leaves the cell. The cell membrane is often described as 'selectively permeable' as it allows some but not all substances across (permeable) and can choose which substances can pass across (selective)."
     },
     { 
@@ -86,7 +86,7 @@
     },
     { 
       "id" :18,
-      "answer" : "cell wall",
+      "answer" : "cell_wall",
       "definition" : "Plant cell membranes are surrounded by a wall which is made of cellulose fibers. Plant cell walls provide structure to the cell, and to the plant. The cell wall allows the cell to fill with water without bursting. Plant cell walls are fully permeable."
     },
     { 
