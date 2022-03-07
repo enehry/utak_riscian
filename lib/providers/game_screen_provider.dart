@@ -132,7 +132,7 @@ class GameScreenProvider extends ChangeNotifier {
     } else {
       generateCount = 8 - answer!.length;
     }
-    print(generateCount);
+    ;
     choices = new List.from(generateRandomString(generateCount))
       ..addAll(answer!);
     choices.shuffle();
