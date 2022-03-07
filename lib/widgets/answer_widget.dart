@@ -69,7 +69,8 @@ class AnswerWidget extends StatelessWidget {
                                 title: 'CORRECT!',
                                 text: 'You guessed it right. \n +20 COINS',
                                 image: 'assets/icons/coin.svg',
-                                description:  provider.questions[provider.stage].definition,
+                                question:
+                                    provider.questions[provider.stage - 1],
                                 onPressed: () {
                                   Navigator.pop(context);
                                   provider.resetCorrect();

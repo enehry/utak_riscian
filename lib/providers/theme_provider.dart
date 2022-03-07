@@ -85,9 +85,11 @@ class ThemeProvider with ChangeNotifier {
           ),
           bodyText1: TextStyle(
             fontSize: 14.0,
-            color: Colors.white,
+
             fontWeight: FontWeight.w500,
-            // fontFamily: 'RobotoSlab',
+            color: Color(0xFFfaedcd),
+            fontFamily: 'Mont',
+            // fontFamily: 'Mont',
           ),
           bodyText2: TextStyle(
             fontSize: 14.0,
