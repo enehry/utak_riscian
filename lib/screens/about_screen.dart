@@ -87,19 +87,19 @@ class AboutScreen extends StatelessWidget {
                           ),
                           Text(
                             'Shania Buenaventura',
-                            style: TextStyle(fontWeight: FontWeight.w300),
+                            style: Theme.of(context).textTheme.bodyText1,
                           ),
                           Text(
                             'Yrhen Dedoro',
-                            style: TextStyle(fontWeight: FontWeight.w300),
+                            style: Theme.of(context).textTheme.bodyText1,
                           ),
                           Text(
                             'Micka Porto',
-                            style: TextStyle(fontWeight: FontWeight.w300),
+                            style: Theme.of(context).textTheme.bodyText1,
                           ),
                           Text(
                             'Ralph Ellis Vasquez',
-                            style: TextStyle(fontWeight: FontWeight.w300),
+                            style: Theme.of(context).textTheme.bodyText1,
                           ),
                           SizedBox(
                             height: 50.0,
