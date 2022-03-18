@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:utak_riscian/fact.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
 import 'package:utak_riscian/question.dart';
 import 'package:utak_riscian/screens/game_screen.dart';
@@ -32,21 +33,26 @@ class StagesScreen extends StatelessWidget {
                       context.watch<GameScreenProvider>().questions;
                   final stage = context.watch<GameScreenProvider>().stage;
 
-                  List<List<Question>> levels = [];
+                  List<List<Question>> levels = [[]];
 
                   // store questions by level
                   for (int i = 0; i < questions.length; i++) {
                     if (i != questions.length - 1) {
                       if (questions[i].level != questions[i + 1].level) {
-                        levels.add([questions[i]]);
-                      } else {
+                        // levels[];
                         levels[questions[i].level - 1].add(questions[i]);
+                      } else {
+                        if (levels.length < questions[i].level) {
+                          levels.add([questions[i]]);
+                        } else {
+                          levels[questions[i].level - 1].add(questions[i]);
+                        }
                       }
+                    } else {
+                      levels[questions[i].level - 1].add(questions[i]);
                     }
                   }
-
                   // display questions by level grid
-
                   return ListView.builder(
                       itemCount: levels.length,
                       itemBuilder: (context, listIndex) {
@@ -58,6 +64,11 @@ class StagesScreen extends StatelessWidget {
                             Text(
                               'Level ${levels[listIndex][0].level}',
                               style: Theme.of(context).textTheme.headline1,
+                            ),
+                            Text(
+                              facts[listIndex].description,
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context).textTheme.bodyText2,
                             ),
                             SizedBox(
                               height: 20.0,

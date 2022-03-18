@@ -95,19 +95,21 @@ class HomeScreen extends StatelessWidget {
                             ),
                           )
                         : Container(),
-                    LongButtonWidget(
-                      onPressed: () async {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => StagesScreen(),
-                          ),
-                        );
-                      },
-                      title: 'STAGES',
-                    ),
-                    SizedBox(
-                      height: 20.0,
-                    ),
+                    stage > 0
+                        ? Padding(
+                            padding: const EdgeInsets.only(bottom: 20.0),
+                            child: LongButtonWidget(
+                              onPressed: () async {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => StagesScreen(),
+                                  ),
+                                );
+                              },
+                              title: 'STAGES',
+                            ),
+                          )
+                        : Container(),
                     LongButtonWidget(
                       onPressed: () {
                         Navigator.of(context).push(
