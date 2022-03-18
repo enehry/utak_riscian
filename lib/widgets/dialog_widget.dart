@@ -93,12 +93,20 @@ class DialogWidget extends StatelessWidget {
                   children: [
                     isOkCancel
                         ? TextButton(
+                            style: ElevatedButton.styleFrom(
+                              primary: Theme.of(context).colorScheme.secondary,
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 20.0, vertical: 10.0),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20.0),
+                              ),
+                            ),
                             onPressed: () {
                               Navigator.of(context).pop();
                             },
                             child: Text(
                               "CANCEL",
-                              style: TextStyle(fontSize: 18),
+                              style: Theme.of(context).textTheme.bodyText1,
                             ),
                           )
                         : Container(),

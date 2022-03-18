@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
 import 'package:utak_riscian/screens/about_screen.dart';
 import 'package:utak_riscian/screens/game_screen.dart';
+import 'package:utak_riscian/screens/qr_code_screen.dart';
 import 'package:utak_riscian/screens/settings_screen.dart';
 import 'package:utak_riscian/screens/stages_screen.dart';
 import 'package:utak_riscian/widgets/dialog_widget.dart';
@@ -117,11 +118,17 @@ class HomeScreen extends StatelessWidget {
                       },
                       title: 'SETTINGS',
                     ),
-                    context.watch<GameScreenProvider>().isFinish
+                    !context.watch<GameScreenProvider>().isFinish
                         ? Padding(
                             padding: const EdgeInsets.only(top: 20.0),
                             child: LongButtonWidget(
-                              onPressed: () async {},
+                              onPressed: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => QRCodeScreen(),
+                                  ),
+                                );
+                              },
                               title: 'QR CODE',
                             ),
                           )

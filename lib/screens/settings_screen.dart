@@ -11,34 +11,48 @@ class SettingsScreen extends StatelessWidget {
         context.read<ThemeProvider>().themeFromStorage == 0 ? 'OFF' : 'ON';
 
     return Scaffold(
-      appBar: AppBar(
-        iconTheme: IconThemeData(color: Colors.white70),
-        backgroundColor: Colors.transparent,
-        elevation: 0.0,
-      ),
-      body: Center(
+      body: SafeArea(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            LongButtonWidget(
-              onPressed: () {
-                context.read<ThemeProvider>().changeTheme();
-                Navigator.pop(context);
-              },
-              title: 'THEME',
-              subtitle: 'Dark Theme : $theme',
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                IconButton(
+                  icon: Icon(Icons.arrow_back),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                ),
+              ],
             ),
-            SizedBox(
-              height: 30.0,
-            ),
-            LongButtonWidget(
-              onPressed: () {
-                context.read<AudioPlayerProvider>().soundSet();
-              },
-              title: 'SOUND',
-              subtitle: context.watch<AudioPlayerProvider>().volume == 0
-                  ? 'OFF'
-                  : 'ON',
+            Expanded(
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    LongButtonWidget(
+                      onPressed: () {
+                        context.read<ThemeProvider>().changeTheme();
+                        Navigator.pop(context);
+                      },
+                      title: 'THEME',
+                      subtitle: 'Dark Theme : $theme',
+                    ),
+                    SizedBox(
+                      height: 30.0,
+                    ),
+                    LongButtonWidget(
+                      onPressed: () {
+                        context.read<AudioPlayerProvider>().soundSet();
+                      },
+                      title: 'SOUND',
+                      subtitle: context.watch<AudioPlayerProvider>().volume == 0
+                          ? 'OFF'
+                          : 'ON',
+                    ),
+                  ],
+                ),
+              ),
             ),
           ],
         ),
