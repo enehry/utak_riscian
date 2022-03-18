@@ -31,7 +31,7 @@ class StatusHeaderWidget extends StatelessWidget {
                   width: 10.0,
                 ),
                 Text(
-                  gameScreenProvider.stage.toString(),
+                  "${gameScreenProvider.question.level} - ${gameScreenProvider.question.stage}",
                   style: Theme.of(context).textTheme.headline1,
                 )
               ],

@@ -15,6 +15,8 @@ class GameScreenProvider extends ChangeNotifier {
   bool isFinish = false;
   bool isWrong = false;
 
+  int _tempStage = 0;
+
   GameScreenProvider() {
     _stage = getStageFromStorage();
     _coins = getCoinsFromStorage();
@@ -49,6 +51,11 @@ class GameScreenProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void setStage(int index) {
+    _stage = index;
+    notifyListeners();
+  }
+
   void addAnswer(int index) {
     String selected = choices[index];
 
@@ -67,12 +74,17 @@ class GameScreenProvider extends ChangeNotifier {
     if (userAnswer.where((val) => val == ' ').isEmpty) {
       if (_answer!.join() == userAnswer.join()) {
         _correct = true;
-        print("Correct");
-        int stage = getStageFromStorage() + 1;
-        int coins = getCoinsFromStorage() + 20;
-        print(StorageUtil.putInt('stage', stage));
-        print(StorageUtil.putInt('coins', coins));
+
+        print("$_tempStage - ${getStageFromStorage()}");
+        if (_tempStage == getStageFromStorage()) {
+          int stage = getStageFromStorage() + 1;
+          int coins = getCoinsFromStorage() + 20;
+          print(StorageUtil.putInt('stage', stage));
+          print(StorageUtil.putInt('coins', coins));
+        }
+
         _stage = getStageFromStorage();
+        _tempStage = stage;
         _coins = getCoinsFromStorage();
         setQuestion(_stage);
         print(_stage);
@@ -99,13 +111,17 @@ class GameScreenProvider extends ChangeNotifier {
 
   void resetCorrect() => _correct = !_correct;
 
+  late Question _question;
+
+  Question get question => _question;
+
   void setQuestion(int index) {
     if (index < questions.length) {
       Question question = questions[index];
+      _question = question;
       _answer = question.answer;
+      _tempStage = index;
       userAnswer = List.filled(_answer!.length, ' ');
-      print(userAnswer);
-      print(userAnswer.length);
       generateChoices();
       hintCount = 0;
     } else {
@@ -132,7 +148,7 @@ class GameScreenProvider extends ChangeNotifier {
     } else {
       generateCount = 8 - answer!.length;
     }
-    ;
+
     choices = new List.from(generateRandomString(generateCount))
       ..addAll(answer!);
     choices.shuffle();

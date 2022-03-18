@@ -23,9 +23,9 @@ class ThemeProvider with ChangeNotifier {
   }
 
   ThemeData darkTheme() => ThemeData(
-        scaffoldBackgroundColor: Color(0xFffaedcd),
+        scaffoldBackgroundColor: Color.fromARGB(255, 70, 70, 70),
         primaryColor: Color(0xFF2D2D2D),
-        backgroundColor: Color(0xFFfaedcd),
+        backgroundColor: Color.fromARGB(255, 90, 90, 90),
         textTheme: TextTheme(
           headline1: TextStyle(
             fontSize: 24.0,
@@ -62,7 +62,7 @@ class ThemeProvider with ChangeNotifier {
 
   ThemeData classicTheme() => ThemeData(
         scaffoldBackgroundColor: Color(0xFFfaedcd),
-        primaryColor: Color(0xFF99DDC8),
+        primaryColor: Color(0xFF283F3B),
         backgroundColor: Color(0xFFfaedcd),
         textTheme: TextTheme(
           headline1: TextStyle(
