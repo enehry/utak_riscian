@@ -13,7 +13,6 @@
       "definition" : "The entire microscope is handled by a strong and curved structure known as the arm.",
       "level": 2,
       "stage": 1
-      
     },
     { 
       "id" : 3,
@@ -52,24 +51,52 @@
     },
     { 
       "id" : 8,
-      "level": 1,
-      "stage": 8,
-      "answer" : "nose_piece",
-      "definition" : "The nose piece is circular and has a rotating metal part that is connected to the body tube’s lower end. The nose piece has three holes wherein the objective lenses are embedded."
-    },
-    { 
-      "level": 1,
-      "stage": 9,
-      "id" :9,
-      "answer" : "body_tube",
-      "definition" : "A body tube is an upper part of the arm of the microscope comprising a hollow and tubular structure known as the body tube. The body tube can be shifted down and up using the adjustment knobs."
-    },
-    { 
-      "level": 1,
-      "stage": 10,
-      "id" :10,
+      "level": 2,
+      "stage": 1,
       "answer" : "cells",
       "definition" : "Cells are the basic building blocks of all living things. The human body is composed of trillions of cells. They provide structure for the body, take in nutrients from food, convert those nutrients into energy, and carry out specialized functions. Cells also contain the body’s hereditary material and can make copies of themselves."
+    },
+    { 
+      "level": 2,
+      "stage": 2,
+      "id" :9,
+      "answer" : "nucleus",
+      "definition" : "The nucleus controls everything which takes place in the cell. It does this as it is the site of the cell's DNA. DNA contains the genetic code which is translated into proteins. All of the chemical reactions which take place in cells are controlled by these proteins."
+    },
+    { 
+      "level": 2,
+      "stage": 3,
+      "id" :10,
+      "answer" : "ribosomes",
+      "definition" : "Ribosomes are tiny structures that are also found in the cytoplasm. Ribosomes are the sites of protein production in cells."
+    },
+    { 
+      "level": 2,
+      "stage": 4,
+      "id" :11,
+      "answer" : "cytoplasm",
+      "definition" : "The cytoplasm is the liquid part of the cell. It consists mainly of water and has many different substances dissolved in it. Many of the cell's chemical reactions occur in the cytoplasm."
+    },
+    { 
+      "level": 2,
+      "stage": 5,
+      "id" :12,
+      "answer" : "chloroplast",
+      "definition" : "As well as mitochondria, plant cells also contain chloroplasts. The chloroplast is the site of Photosynthesis in the cell. So, this is where energy from light is used to produce sugar from carbon dioxide and water."
+    },
+    { 
+      "level": 2,
+      "stage": 6,
+      "id" :13,
+      "answer" : "mitochondria",
+      "definition" : "Mitochondria are membrane-bound cell organelles (mitochondrion, singular) that generate most of the chemical energy needed to power the cell's biochemical reactions. Chemical energy produced by the mitochondria is stored in a small molecule called adenosine triphosphate (ATP)."
+    },
+    { 
+      "level": 2,
+      "stage": 7,
+      "id" :14,
+      "answer" : "vacuole",
+      "definition" : "Plant cells have a large central vacuole that fills with fluid, or sap, which helps provide structure to the cell and the plant."
     }
   ]
 }
