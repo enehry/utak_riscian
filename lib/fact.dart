@@ -23,25 +23,27 @@ class Fact {
 
   @override
   String toString() {
-    return 'Fact{id: $id, text: $text} $description';
+    return 'DID YOU KNOW?{id: $id, text: $text} $description';
   }
 }
 
 List<Fact> facts = [
   Fact(
       id: 1,
-      text: 'A cat has 32 muscles in each ear.',
-      description: 'A cat has 32 muscles in each ear.'),
+      text: 'PARTS OF MICRSOCOPE',
+      description:
+          'The earliest microscopes were known as “flea glasses” because they were used to study small insects!'),
   Fact(
       id: 2,
-      text: 'A cat can jump up to seven times its length.',
-      description: 'A cat can jump up to seven times its length.'),
+      text: 'STRUCTURE OF A CELL',
+      description: 'Cell is Too Small to be Seen Without Magnification.'),
   Fact(
       id: 3,
-      text: 'A cat can’t see directly under its nose.',
-      description: 'A cat can’t see directly under its nose.'),
+      text: 'PARTS OF A CELL',
+      description:
+          'There are More Bacterial Cells in the Body than Human Cells!'),
   Fact(
       id: 4,
-      text: 'A cat can’t see well in the dark.',
-      description: 'A cat can’t see well in the dark.'),
+      text: 'PARTS OF A CELL PART 2',
+      description: 'Cells Commit Suicide'),
 ];
