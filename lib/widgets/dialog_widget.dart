@@ -70,7 +70,7 @@ class DialogWidget extends StatelessWidget {
                           child: Column(
                             children: [
                               Text(
-                                question!.answer.join(''),
+                                question!.answer.join('').replaceAll('_', ' '),
                                 style: Theme.of(context).textTheme.headline3,
                               ),
                               Text(
@@ -87,7 +87,9 @@ class DialogWidget extends StatelessWidget {
                   height: 15,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: isOkCancel
+                      ? MainAxisAlignment.spaceBetween
+                      : MainAxisAlignment.center,
                   children: [
                     isOkCancel
                         ? TextButton(
@@ -102,9 +104,16 @@ class DialogWidget extends StatelessWidget {
                         : Container(),
                     TextButton(
                       onPressed: onPressed as void Function()?,
+                      style: ElevatedButton.styleFrom(
+                          primary: Theme.of(context).colorScheme.secondary,
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0, vertical: 10.0),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20.0),
+                          )),
                       child: Text(
-                        "OK",
-                        style: TextStyle(fontSize: 18),
+                        isOkCancel ? 'OK' : 'CONTINUE',
+                        style: Theme.of(context).textTheme.bodyText1,
                       ),
                     ),
                   ],

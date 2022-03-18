@@ -30,13 +30,14 @@
       "stage": 4
     }, 
     { 
-      "id" :5,
+      "id" : 5,
       "answer" : "stage",
       "definition" : "The stage is a flat and rectangular plate that is connected to the arm’s lower end. The specimen is placed on the stage for studying and examining the various features. The center of the stage has a hole through which light can pass.",
       "level": 1,
       "stage": 5
     },
-    { "level": 1,
+    { 
+      "level": 1,
       "stage": 6,
       "id" :6,
       "answer" : "diaphragm",
@@ -50,9 +51,9 @@
       "definition" : "The upper part of the stage is connected to two clips. The slide can be held in its position with the help of the clips."
     },
     { 
+      "id" : 8,
       "level": 1,
       "stage": 8,
-      "id" :8,
       "answer" : "nose_piece",
       "definition" : "The nose piece is circular and has a rotating metal part that is connected to the body tube’s lower end. The nose piece has three holes wherein the objective lenses are embedded."
     },
