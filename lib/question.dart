@@ -4,14 +4,24 @@ class Question {
   final int id;
   final List<String> answer;
   final String definition;
+  final int stage;
+  final int level;
 
-  Question({required this.id, required this.answer, required this.definition});
+  Question({
+    required this.id,
+    required this.answer,
+    required this.definition,
+    required this.level,
+    required this.stage,
+  });
 
   Map<String, dynamic> toMap() {
     return {
       'id': id,
       'answer': answer,
       'definition': definition,
+      'level': level,
+      'stage': stage,
     };
   }
 
@@ -22,6 +32,8 @@ class Question {
           .map((e) => e.toUpperCase())
           .toList(),
       definition: map['definition'] ?? '',
+      level: map['level'] ?? 0,
+      stage: map['stage'] ?? 0,
     );
   }
 

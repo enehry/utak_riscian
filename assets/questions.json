@@ -3,108 +3,72 @@
     { 
       "id" : 1,
       "answer" : "mirror",
-      "definition" : "A mirror is found attached either to the pillar or the lower end of the arm. It consists of a concave mirror on one side and a plain mirror on the other side. It can be used for the reflection of light rays into the microscope."
+      "definition" : "A mirror is found attached either to the pillar or the lower end of the arm. It consists of a concave mirror on one side and a plain mirror on the other side. It can be used for the reflection of light rays into the microscope.",
+      "stage": 1,
+      "level": 1
     },
     { 
       "id" : 2,
       "answer" : "arm",
-      "definition" : "The entire microscope is handled by a strong and curved structure known as the arm."
+      "definition" : "The entire microscope is handled by a strong and curved structure known as the arm.",
+      "level": 2,
+      "stage": 1
+      
     },
     { 
       "id" : 3,
       "answer" : "base",
-      "definition" : "The base is a U-shaped structure and supports the entire weight of the compound microscope."
+      "definition" : "The base is a U-shaped structure and supports the entire weight of the compound microscope.",
+      "level": 1,
+      "stage": 3
     }, 
     { 
       "id" : 4,
       "answer" : "pillar",
-      "definition" : "The pillar is a vertical projection. It stands by resting on the base and supports the stage."
+      "definition" : "The pillar is a vertical projection. It stands by resting on the base and supports the stage.",
+      "level": 1,
+      "stage": 4
     }, 
     { 
       "id" :5,
       "answer" : "stage",
-      "definition" : "The stage is a flat and rectangular plate that is connected to the arm’s lower end. The specimen is placed on the stage for studying and examining the various features. The center of the stage has a hole through which light can pass."
+      "definition" : "The stage is a flat and rectangular plate that is connected to the arm’s lower end. The specimen is placed on the stage for studying and examining the various features. The center of the stage has a hole through which light can pass.",
+      "level": 1,
+      "stage": 5
     },
-    { 
+    { "level": 1,
+      "stage": 6,
       "id" :6,
       "answer" : "diaphragm",
       "definition" : "The diaphragm is fastened below the stage. It controls and adjusts the intensity of light that passes into the microscope. The diaphragm can be of two types: Disc diaphragm or Iris diaphragm."
     },
     { 
+      "level": 1,
+      "stage": 7,
       "id" :7,
       "answer" : "clips",
       "definition" : "The upper part of the stage is connected to two clips. The slide can be held in its position with the help of the clips."
     },
     { 
+      "level": 1,
+      "stage": 8,
       "id" :8,
       "answer" : "nose_piece",
       "definition" : "The nose piece is circular and has a rotating metal part that is connected to the body tube’s lower end. The nose piece has three holes wherein the objective lenses are embedded."
     },
     { 
+      "level": 1,
+      "stage": 9,
       "id" :9,
       "answer" : "body_tube",
       "definition" : "A body tube is an upper part of the arm of the microscope comprising a hollow and tubular structure known as the body tube. The body tube can be shifted down and up using the adjustment knobs."
     },
     { 
+      "level": 1,
+      "stage": 10,
       "id" :10,
       "answer" : "cells",
       "definition" : "Cells are the basic building blocks of all living things. The human body is composed of trillions of cells. They provide structure for the body, take in nutrients from food, convert those nutrients into energy, and carry out specialized functions. Cells also contain the body’s hereditary material and can make copies of themselves."
-    },
-    { 
-      "id" :11,
-      "answer" : "nucleus",
-      "definition" : "The nucleus controls everything which takes place in the cell. It does this as it is the site of the cell's DNA. DNA contains the genetic code which is translated into proteins. All of the chemical reactions which take place in cells are controlled by these proteins."
-    }, 
-    { 
-      "id" :12,
-      "answer" : "ribosomes",
-      "definition" : "Ribosomes are tiny structures that are also found in the cytoplasm. Ribosomes are the sites of protein production in cells."
-    },{ 
-      "id" :13,
-      "answer" : "cytoplasm",
-      "definition" : "The cytoplasm is the liquid part of the cell. It consists mainly of water and has many different substances dissolved in it. Many of the cell's chemical reactions occur in the cytoplasm."
-    },
-    { 
-      "id" :14,
-      "answer" : "chloroplast",
-      "definition" : "As well as mitochondria, plant cells also contain chloroplasts. The chloroplast is the site of Photosynthesis in the cell. So, this is where energy from light is used to produce sugar from carbon dioxide and water."
-    },
-    { 
-      "id" :15,
-      "answer" : "mitochondria",
-      "definition" : "Mitochondria are membrane-bound cell organelles (mitochondrion, singular) that generate most of the chemical energy needed to power the cell's biochemical reactions. Chemical energy produced by the mitochondria is stored in a small molecule called adenosine triphosphate (ATP)."
-    },
-    { 
-      "id" :16,
-      "answer" : "cell_membrane",
-      "definition" : "The cell membrane contains the contents of the cell and provides a barrier to control what enters and leaves the cell. The cell membrane is often described as 'selectively permeable' as it allows some but not all substances across (permeable) and can choose which substances can pass across (selective)."
-    },
-    { 
-      "id" :17,
-      "answer" : "vacuole",
-      "definition" : "Plant cells have a large central vacuole that fills with fluid, or sap, which helps provide structure to the cell and the plant."
-    },
-    { 
-      "id" :18,
-      "answer" : "cell_wall",
-      "definition" : "Plant cell membranes are surrounded by a wall which is made of cellulose fibers. Plant cell walls provide structure to the cell, and to the plant. The cell wall allows the cell to fill with water without bursting. Plant cell walls are fully permeable."
-    },
-    { 
-      "id" :19,
-      "answer" : "plasmids",
-      "definition" : "Plasmids are small circular sections of DNA that bacteria cells have in their cytoplasm in addition to their large circular chromosome. Plasmids can be replicated rapidly and can transfer between bacterial cells easily."
-    },
-    { 
-      "id" :20,
-      "answer" : "centrioles",
-      "definition" : "Plasmids are small circular sections of DNA that bacteria cells have in their cytoplasm in addition to their large circular chromosome. Plasmids can be replicated rapidly and can transfer between bacterial cells easily."
-    },
-    { 
-      "id" :21,
-      "answer" : "centrosomes",
-      "definition" : "Plasmids are small circular sections of DNA that bacteria cells have in their cytoplasm in addition to their large circular chromosome. Plasmids can be replicated rapidly and can transfer between bacterial cells easily."
     }
-
   ]
-
 }

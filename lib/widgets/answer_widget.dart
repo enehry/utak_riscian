@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:utak_riscian/fact.dart';
 import 'package:utak_riscian/providers/audio_player_provider.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
 import 'package:utak_riscian/widgets/dialog_widget.dart';
@@ -62,6 +63,26 @@ class AnswerWidget extends StatelessWidget {
                             context
                                 .read<AudioPlayerProvider>()
                                 .playSound('assets/sounds/coin.wav');
+
+                            // check if next level
+                            if (provider.questions[provider.stage + 1].level !=
+                                provider.question.level) {
+                              showDialog(
+                                barrierDismissible: false,
+                                context: context,
+                                builder: (builder) => DialogWidget(
+                                  title: 'Fact',
+                                  text: facts[provider
+                                          .questions[provider.stage - 1].level]
+                                      .text,
+                                  image: 'assets/icons/warn.svg',
+                                  onPressed: () {
+                                    Navigator.pop(context);
+                                  },
+                                ),
+                              );
+                            }
+
                             showDialog(
                               barrierDismissible: false,
                               context: context,
