@@ -71,7 +71,7 @@ class AnswerWidget extends StatelessWidget {
                                 barrierDismissible: false,
                                 context: context,
                                 builder: (builder) => DialogWidget(
-                                  title: 'Fact',
+                                  title: 'DID YOU KNOW?',
                                   text: facts[provider
                                           .questions[provider.stage - 1].level]
                                       .text,
