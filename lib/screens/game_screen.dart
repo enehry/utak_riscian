@@ -17,7 +17,8 @@ class GameScreen extends StatelessWidget {
           ? Center(
               child: Text(
                 'Thank you for playing! This game is for research purposes only. No copyright intended.',
-                style: Theme.of(context).textTheme.headline2,
+                style: Theme.of(context).textTheme.headline1,
+                textAlign: TextAlign.center,
               ),
             )
           : SafeArea(
