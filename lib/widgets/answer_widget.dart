@@ -65,7 +65,7 @@ class AnswerWidget extends StatelessWidget {
                                 .playSound('assets/sounds/coin.wav');
 
                             // check if next level
-                            if (provider.questions[provider.stage + 1].level !=
+                            if (provider.questions[provider.stage - 1].level !=
                                 provider.question.level) {
                               showDialog(
                                 barrierDismissible: false,
@@ -73,7 +73,9 @@ class AnswerWidget extends StatelessWidget {
                                 builder: (builder) => DialogWidget(
                                   title: 'DID YOU KNOW?',
                                   text: facts[provider
-                                          .questions[provider.stage - 1].level]
+                                              .questions[provider.stage - 1]
+                                              .level -
+                                          1]
                                       .text,
                                   image: 'assets/icons/warn.svg',
                                   onPressed: () {

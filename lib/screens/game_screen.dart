@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
+import 'package:utak_riscian/screens/end_screen.dart';
 import 'package:utak_riscian/widgets/answer_widget.dart';
 import 'package:utak_riscian/widgets/hint_button.dart';
 import 'package:utak_riscian/widgets/images_widget.dart';
@@ -14,13 +15,7 @@ class GameScreen extends StatelessWidget {
 
     return Scaffold(
       body: context.watch<GameScreenProvider>().isFinish
-          ? Center(
-              child: Text(
-                'Thank you for playing! This game is for research purposes only. No copyright intended.',
-                style: Theme.of(context).textTheme.headline1,
-                textAlign: TextAlign.center,
-              ),
-            )
+          ? EndScreen()
           : SafeArea(
               child: Padding(
                 padding: const EdgeInsets.all(10.0),

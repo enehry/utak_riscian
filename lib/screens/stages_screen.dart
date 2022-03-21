@@ -147,6 +147,9 @@ class StagesScreen extends StatelessWidget {
                 }),
               ),
             ),
+            const SizedBox(
+              height: 20.0,
+            )
           ],
         ),
       ),

@@ -14,13 +14,27 @@ class GameScreenProvider extends ChangeNotifier {
   int _stage = 0;
   bool isFinish = false;
   bool isWrong = false;
+  String? _name;
 
   int _tempStage = 0;
 
   GameScreenProvider() {
     _stage = getStageFromStorage();
     _coins = getCoinsFromStorage();
+    _name = getNameFromStorage();
     loadQuestions();
+  }
+
+  String? get name => _name;
+
+  String? getNameFromStorage() {
+    return StorageUtil.getString('name');
+  }
+
+  void setName(String name) {
+    StorageUtil.setString("name", name);
+    _name = name;
+    notifyListeners();
   }
 
   int getStageFromStorage() => StorageUtil.getInt('stage');

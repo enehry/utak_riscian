@@ -24,6 +24,16 @@ class StorageUtil {
     return _preferences?.getInt(key) ?? defValue;
   }
 
+  // get String
+  static String? getString(String key, {String? defValue}) {
+    if (_preferences == null) return defValue;
+    return _preferences?.getString(key) ?? defValue;
+  }
+
+  static void setString(String key, String name) {
+    _preferences?.setString(key, name);
+  }
+
   static double getVolume(String key, {double defValue = 1.0}) {
     if (_preferences == null) return defValue;
     return _preferences?.getDouble(key) ?? defValue;
