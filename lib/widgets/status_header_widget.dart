@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:utak_riscian/fact.dart';
 import 'package:utak_riscian/providers/game_screen_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -20,7 +21,7 @@ class StatusHeaderWidget extends StatelessWidget {
         children: [
           Flexible(
             child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 SvgPicture.asset(
                   'assets/icons/stages.svg',
@@ -33,6 +34,18 @@ class StatusHeaderWidget extends StatelessWidget {
                 Text(
                   "${gameScreenProvider.question.level} - ${gameScreenProvider.question.stage}",
                   style: Theme.of(context).textTheme.headline1,
+                ),
+                const SizedBox(
+                  width: 10.0,
+                ),
+                Flexible(
+                  child: Padding(
+                    padding: const EdgeInsets.only(bottom: 5.0),
+                    child: Text(
+                      "${facts[gameScreenProvider.question.level - 1].description}",
+                      style: Theme.of(context).textTheme.bodyText2,
+                    ),
+                  ),
                 )
               ],
             ),

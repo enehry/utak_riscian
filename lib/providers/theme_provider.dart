@@ -54,6 +54,7 @@ class ThemeProvider with ChangeNotifier {
             fontSize: 18.0,
             color: Color(0xFFE0E0E0),
             fontWeight: FontWeight.bold,
+            fontFamily: 'Mont',
           ),
         ),
         colorScheme:
