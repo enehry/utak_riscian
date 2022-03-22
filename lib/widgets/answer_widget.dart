@@ -71,13 +71,13 @@ class AnswerWidget extends StatelessWidget {
                                 barrierDismissible: false,
                                 context: context,
                                 builder: (builder) => DialogWidget(
-                                  title: 'DID YOU KNOW?',
+                                  title: 'CONGRATULATIONS!',
                                   text: facts[provider
                                               .questions[provider.stage - 1]
                                               .level -
                                           1]
                                       .text,
-                                  image: 'assets/icons/warn.svg',
+                                  image: 'assets/icons/congratulations.svg',
                                   onPressed: () {
                                     Navigator.pop(context);
                                   },

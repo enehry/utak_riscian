@@ -151,7 +151,7 @@ class AboutScreen extends StatelessWidget {
                                             fontWeight: FontWeight.w300),
                                       ),
                                       Text(
-                                        'hatdog',
+                                        'Yrhen Dedoro',
                                         style: TextStyle(
                                             fontWeight: FontWeight.w500,
                                             fontSize: 20.0),
@@ -173,7 +173,7 @@ class AboutScreen extends StatelessWidget {
                                             elevation: 4.0,
                                             onPressed: () {
                                               _launchURL(
-                                                  'https://www.facebook.com/nehry.08');
+                                                  'https://www.facebook.com/yrhnddr');
                                             },
                                           ),
                                           SizedBox(
@@ -188,8 +188,7 @@ class AboutScreen extends StatelessWidget {
                                             mini: true,
                                             elevation: 4.0,
                                             onPressed: () {
-                                              _launchURL(
-                                                  'https://github.com/enehry');
+                                              _launchURL('https://github.com');
                                             },
                                           ),
                                           SizedBox(
@@ -204,7 +203,8 @@ class AboutScreen extends StatelessWidget {
                                             mini: true,
                                             elevation: 4.0,
                                             onPressed: () {
-                                              _launchURL('enehry@gmail.com');
+                                              _launchURL(
+                                                  'yrhendedoro02@gmail.com');
                                             },
                                           )
                                         ],
