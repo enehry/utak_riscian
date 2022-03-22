@@ -129,7 +129,11 @@ class GameScreenProvider extends ChangeNotifier {
 
   Question get question => _question;
 
-  void setQuestion(int index) {
+  void setQuestion(int index, {bool overrideIsFinish = false}) {
+    if (overrideIsFinish) {
+      isFinish = false;
+    }
+
     if (index < questions.length) {
       Question question = questions[index];
       _question = question;

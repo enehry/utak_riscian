@@ -94,8 +94,9 @@ class StagesScreen extends StatelessWidget {
                                         context
                                             .read<GameScreenProvider>()
                                             .setQuestion(
-                                                levels[listIndex][index].id -
-                                                    1);
+                                              levels[listIndex][index].id - 1,
+                                              overrideIsFinish: true,
+                                            );
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
