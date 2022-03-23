@@ -159,105 +159,105 @@ class AboutScreen extends StatelessWidget {
                                       SizedBox(
                                         height: 20.0,
                                       ),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          SignInButton(
-                                            Buttons.Facebook,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(50.0),
-                                            ),
-                                            mini: true,
-                                            elevation: 4.0,
-                                            onPressed: () {
-                                              _launchURL(
-                                                  'https://www.facebook.com/yrhnddr');
-                                            },
-                                          ),
-                                          SizedBox(
-                                            width: 5.0,
-                                          ),
-                                          SignInButton(
-                                            Buttons.GitHub,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(50.0),
-                                            ),
-                                            mini: true,
-                                            elevation: 4.0,
-                                            onPressed: () {
-                                              _launchURL('https://github.com');
-                                            },
-                                          ),
-                                          SizedBox(
-                                            width: 5.0,
-                                          ),
-                                          SignInButton(
-                                            Buttons.Email,
-                                            shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(10.0),
-                                            ),
-                                            mini: true,
-                                            elevation: 4.0,
-                                            onPressed: () {
-                                              _launchURL(
-                                                  'yrhendedoro02@gmail.com');
-                                            },
-                                          )
-                                        ],
-                                      ),
-                                      SizedBox(
-                                        height: 30.0,
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              FractionalTranslation(
-                                translation: Offset(0.0, -0.4),
-                                child: Align(
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      shape: BoxShape.circle,
-                                      boxShadow: [
-                                        BoxShadow(
-                                            blurRadius: 3,
-                                            color: Colors.black54,
-                                            spreadRadius: 2),
-                                      ],
-                                    ),
-                                    child: CircleAvatar(
-                                      radius: 42.0,
-                                      backgroundColor: Colors.white,
-                                      child: CircleAvatar(
-                                        foregroundImage:
-                                            AssetImage('assets/icons/-.png'),
-                                        radius: 40.0,
-                                      ),
-                                    ),
-                                  ),
-                                  alignment: FractionalOffset(0.5, 0.0),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: 50.0,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
+                                      // Row(
+                                      //   mainAxisAlignment:
+                                      //       MainAxisAlignment.center,
+                                      //   children: [
+                                      //     SignInButton(
+                                      //       Buttons.Facebook,
+                                      //       shape: RoundedRectangleBorder(
+                                      //         borderRadius:
+                                      //             BorderRadius.circular(50.0),
+                      //                       ),
+                      //                       mini: true,
+                      //                       elevation: 4.0,
+                      //                       onPressed: () {
+                      //                         _launchURL(
+                      //                             'https://www.facebook.com/yrhnddr');
+                      //                       },
+                      //                     ),
+                      //                     SizedBox(
+                      //                       width: 5.0,
+                      //                     ),
+                      //                     SignInButton(
+                      //                       Buttons.GitHub,
+                      //                       shape: RoundedRectangleBorder(
+                      //                         borderRadius:
+                      //                             BorderRadius.circular(50.0),
+                      //                       ),
+                      //                       mini: true,
+                      //                       elevation: 4.0,
+                      //                       onPressed: () {
+                      //                         _launchURL('https://github.com');
+                      //                       },
+                      //                     ),
+                      //                     SizedBox(
+                      //                       width: 5.0,
+                      //                     ),
+                      //                     SignInButton(
+                      //                       Buttons.Email,
+                      //                       shape: RoundedRectangleBorder(
+                      //                         borderRadius:
+                      //                             BorderRadius.circular(10.0),
+                      //                       ),
+                      //                       mini: true,
+                      //                       elevation: 4.0,
+                      //                       onPressed: () {
+                      //                         _launchURL(
+                      //                             'yrhendedoro02@gmail.com');
+                      //                       },
+                      //                     )
+                      //                   ],
+                      //                 ),
+                      //                 SizedBox(
+                      //                   height: 30.0,
+                      //                 ),
+                      //               ],
+                      //             ),
+                      //           ),
+                      //         ),
+                      //         FractionalTranslation(
+                      //           translation: Offset(0.0, -0.4),
+                      //           child: Align(
+                      //             child: Container(
+                      //               decoration: BoxDecoration(
+                      //                 color: Colors.white,
+                      //                 shape: BoxShape.circle,
+                      //                 boxShadow: [
+                      //                   BoxShadow(
+                      //                       blurRadius: 3,
+                      //                       color: Colors.black54,
+                      //                       spreadRadius: 2),
+                      //                 ],
+                      //               ),
+                      //               child: CircleAvatar(
+                      //                 radius: 42.0,
+                      //                 backgroundColor: Colors.white,
+                      //                 child: CircleAvatar(
+                      //                   foregroundImage:
+                      //                       AssetImage('assets/icons/-.png'),
+                      //                   radius: 40.0,
+                      //                 ),
+                      //               ),
+                      //             ),
+                      //             alignment: FractionalOffset(0.5, 0.0),
+                      //           ),
+                      //         ),
+                      //       ],
+                      //     ),
+                      //   ),
+                      // ),
+                      // SizedBox(
+                      //   height: 50.0,
+          //             ),
+          //           ],
+          //         ),
+          //       ),
+          //     ),
+          //   ),
+    //       // ],
+    //     ),
+    //   ),
+    // );
+//   }
+// }
