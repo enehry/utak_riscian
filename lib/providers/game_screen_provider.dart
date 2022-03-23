@@ -132,7 +132,6 @@ class GameScreenProvider extends ChangeNotifier {
   void setQuestion(int index, {bool overrideIsFinish = false}) {
     if (overrideIsFinish) {
       isFinish = false;
-      notifyListeners();
     }
 
     if (index < questions.length) {
