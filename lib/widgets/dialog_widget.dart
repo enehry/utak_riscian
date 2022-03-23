@@ -135,13 +135,22 @@ class DialogWidget extends StatelessWidget {
             child: CircleAvatar(
               radius: 40.0,
               child: ClipOval(
-                child: SvgPicture.asset(
-                  image,
-                  fit: BoxFit.cover,
-                  height: 80.0,
-                  width: 80.0,
-                ),
-              ),
+                  // check if image is svg
+                  child: image.endsWith('svg')
+                      ? SvgPicture.asset(
+                          image,
+                          fit: BoxFit.cover,
+                          height: 80.0,
+                          width: 80.0,
+                        )
+                      : Image(
+                          image: AssetImage(
+                            image,
+                          ),
+                          fit: BoxFit.cover,
+                          height: 80.0,
+                          width: 80.0,
+                        )),
             ),
           ),
         ],

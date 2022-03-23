@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AboutScreen extends StatelessWidget {
@@ -14,9 +13,9 @@ class AboutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    void _launchURL(String url) async => await canLaunch(url)
-        ? await launch(url)
-        : throw 'Could not launch $url';
+    // void _launchURL(String url) async => await canLaunch(url)
+    //     ? await launch(url)
+    //     : throw 'Could not launch $url';
 
     return Scaffold(
       body: SafeArea(
@@ -127,47 +126,47 @@ class AboutScreen extends StatelessWidget {
                       SizedBox(
                         height: 70.0,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(top: 30.0),
-                        child: ConstrainedBox(
-                          constraints: BoxConstraints(
-                            maxWidth: 400.0,
-                          ),
-                          child: new Stack(
-                            children: <Widget>[
-                              Card(
-                                elevation: 20.0,
-                                color: Theme.of(context).colorScheme.secondary,
-                                child: Container(
-                                  width: double.infinity,
-                                  child: Column(
-                                    children: [
-                                      SizedBox(
-                                        height: 60.0,
-                                      ),
-                                      Text(
-                                        'Developed and Designed by',
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w300),
-                                      ),
-                                      Text(
-                                        'Yrhen Dedoro',
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w500,
-                                            fontSize: 20.0),
-                                      ),
-                                      SizedBox(
-                                        height: 20.0,
-                                      ),
-                                      // Row(
-                                      //   mainAxisAlignment:
-                                      //       MainAxisAlignment.center,
-                                      //   children: [
-                                      //     SignInButton(
-                                      //       Buttons.Facebook,
-                                      //       shape: RoundedRectangleBorder(
-                                      //         borderRadius:
-                                      //             BorderRadius.circular(50.0),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 30.0),
+                      //   child: ConstrainedBox(
+                      //     constraints: BoxConstraints(
+                      //       maxWidth: 400.0,
+                      //     ),
+                      //     child: new Stack(
+                      //       children: <Widget>[
+                      //         Card(
+                      //           elevation: 20.0,
+                      //           color: Theme.of(context).colorScheme.secondary,
+                      //           child: Container(
+                      //             width: double.infinity,
+                      //             child: Column(
+                      //               children: [
+                      //                 SizedBox(
+                      //                   height: 60.0,
+                      //                 ),
+                      //                 Text(
+                      //                   'Developed and Designed by',
+                      //                   style: TextStyle(
+                      //                       fontWeight: FontWeight.w300),
+                      //                 ),
+                      //                 Text(
+                      //                   'Yrhen Dedoro',
+                      //                   style: TextStyle(
+                      //                       fontWeight: FontWeight.w500,
+                      //                       fontSize: 20.0),
+                      //                 ),
+                      //                 SizedBox(
+                      //                   height: 20.0,
+                      //                 ),
+                      //                 Row(
+                      //                   mainAxisAlignment:
+                      //                       MainAxisAlignment.center,
+                      //                   children: [
+                      //                     SignInButton(
+                      //                       Buttons.Facebook,
+                      //                       shape: RoundedRectangleBorder(
+                      //                         borderRadius:
+                      //                             BorderRadius.circular(50.0),
                       //                       ),
                       //                       mini: true,
                       //                       elevation: 4.0,
@@ -247,17 +246,17 @@ class AboutScreen extends StatelessWidget {
                       //     ),
                       //   ),
                       // ),
-                      // SizedBox(
-                      //   height: 50.0,
-          //             ),
-          //           ],
-          //         ),
-          //       ),
-          //     ),
-          //   ),
-    //       // ],
-    //     ),
-    //   ),
-    // );
-//   }
-// }
+                      SizedBox(
+                        height: 50.0,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
