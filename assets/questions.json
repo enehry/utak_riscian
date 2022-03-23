@@ -54,679 +54,680 @@
       "level": 2,
       "stage": 1,
       "answer" : "head",
-      "definition" : "No definition found."
+      "definition" : "The head of a microscope is the top section of the microscopes. It holds the ocular tubes and eyepieces of a microscope. It sits on the arm of the microscope and above the rotating objective turret."
     },
     { 
       "level": 2,
       "stage": 2,
       "id" :9,
       "answer" : "switch",
-      "definition" : "No definition found."
+      "definition" : "This switch on the base of the microscope turns the illuminator off and on."
     },
     { 
       "level": 2,
       "stage": 3,
       "id" :10,
       "answer" : "condenser",
-      "definition" : "No definition found."
+      "definition" : "On upright microscopes, the condenser is located beneath the stage and serves to gather wavefronts from the microscope light source and concentrate them into a cone of light that illuminates the specimen with uniform intensity over the entire viewfield."
     },
     { 
       "level": 2,
       "stage": 4,
       "id" :11,
       "answer" : "nosepiece",
-      "definition" : "No definition found."
+      "definition" : "The nosepiece holds the objective lenses & attaches them to the microscope head. This part rotates to change which objective lens is active."
     },
     { 
       "level": 2,
       "stage": 5,
       "id" :12,
-      "answer" : "mirror",
-      "definition" : "No definition found."
+      "answer" : "objectives",
+      "definition" : "The objective lens gathers light from the specimen, magnifies the image of the specimen, and projects the magnified image into the body tube."
     },
     { 
       "level": 2,
       "stage": 6,
       "id" :13,
       "answer" : "illuminator",
-      "definition" : "No definition found."
+      "definition" : "There is an illuminator built into the base of most microscopes. The purpose of the illuminator is to provide even, high intensity light at the place of the field aperture, so that light can travel through the condenser to the specimen."
     },
     { 
       "level": 2,
       "stage": 7,
       "id" :14,
       "answer" : "aperture",
-      "definition" : "No definition found."
+      "definition" : "The hole in the middle of the stage that allows light from the illuminator to reach the specimen."
     },
     { 
       "level": 3,
       "stage": 1,
       "id" :15,
       "answer" : "nucleus",
-      "definition" : "No definition found."
+      "definition" : "A nucleus is a membrane-bound organelle that contains the cell's chromosomes. Pores in the nuclear membrane allow for the passage of molecules in and out of the nucleus."
     },
     { 
       "level": 3,
       "stage": 2,
       "id" :16,
       "answer" : "centrioles",
-      "definition" : "No definition found."
+      "definition" : "Centrioles are paired barrel-shaped organelles located in the cytoplasm of animal cells near the nuclear envelope. Centrioles play a role in organizing microtubules that serve as the cell's skeletal system. They help determine the locations of the nucleus and other organelles within the cell."
     },
     { 
       "level": 3,
       "stage": 3,
       "id" :17,
       "answer" : "cytoplasm",
-      "definition" : "No definition found."
+      "definition" : "Cytoplasm is the gelatinous liquid that fills the inside of a cell. It is composed of water, salts, and various organic molecules. Some intracellular organelles, such the nucleus and mitochondria, are enclosed by membranes that separate them from the cytoplasm."
     },
     { 
       "level": 3,
       "stage": 4,
       "id" :18,
       "answer" : "ribosomes",
-      "definition" : "No definition found."
+      "definition" : "A ribosome is a cellular particle made of RNA and protein that serves as the site for protein synthesis in the cell. The ribosome reads the sequence of the messenger RNA (mRNA) and, using the genetic code, translates the sequence of RNA bases into a sequence of amino acids."
     },
     { 
       "level": 3,
       "stage": 5,
       "id" :19,
       "answer" : "chromatin",
-      "definition" : "No definition found."
+      "definition" : " Chromatin is a substance within a chromosome consisting of DNA and protein. The DNA carries the cell's genetic instructions. The major proteins in chromatin are histones, which help package the DNA in a compact form that fits in the cell nucleus."
     },
     { 
       "level": 3,
       "stage": 6,
       "id" :20,
-      "answer" : "mitochondrion",
-      "definition" : "No definition found."
+      "answer" : "mitochondria",
+      "definition" : "Mitochondria are membrane-bound cell organelles (mitochondrion, singular) that generate most of the chemical energy needed to power the cell's biochemical reactions."
     },
     { 
       "level": 3,
       "stage": 7,
       "id" :21,
       "answer" : "lysosome",
-      "definition" : "No definition found."
+      "definition" : "A lysosome is a membrane-bound cell organelle that contains digestive enzymes. Lysosomes are involved with various cell processes. They break down excess or worn-out cell parts. They may be used to destroy invading viruses and bacteria."
     },
     { 
       "level": 4,
       "stage": 1,
       "id" :22,
       "answer" : "nucleolus",
-      "definition" : "No definition found."
+      "definition" : "The nucleolus is a region found within the cell nucleus that is concerned with producing and assembling the cell's ribosomes. Following assembly, ribosomes are transported to the cell cytoplasm where they serve as the sites for protein synthesis."
     },
     { 
       "level": 4,
       "stage": 2,
       "id" :23,
       "answer" : "microvili",
-      "definition" : "No definition found."
+      "definition" : "Microvilli are spine-like protrusions that increase enormously the plasma membrane surface and therefore the membrane protein content. This is particularly important in those absorptive and secretory cells of epithelia. Microvilli may increase the cell surface up to 100 times compared with a flat membrane."
     },
     { 
       "level": 4,
       "stage": 3,
       "id" :24,
       "answer" : "peroxisome",
-      "definition" : "No definition found."
+      "definition" : "A peroxisome is a membrane-bound organelle, a type of microbody, found in the cytoplasm of virtually all eukaryotic cells and they are oxidative organelles."
     },
     { 
       "level": 4,
       "stage": 4,
       "id" :25,
       "answer" : "microtubule",
-      "definition" : "No definition found."
+      "definition" : " Microtubules are polymers of tubulin that form part of the cytoskeleton and provide structure and shape to eukaryotic cells. Microtubules can grow as long as 50 micrometres and are highly dynamic. The outer diameter of a microtubule is between 23 and 27 nm while the inner diameter is between 11 and 15 nm."
     },
     { 
       "level": 4,
       "stage": 5,
       "id" :26,
-      "answer" : "cholroplast",
-      "definition" : "No definition found."
+      "answer" : "chloroplast",
+      "definition" : "A chloroplast is an organelle within the cells of plants and certain algae that is the site of photosynthesis, which is the process by which energy from the Sun is converted into chemical energy for growth."
     },
     { 
       "level": 4,
       "stage": 6,
       "id" :27,
       "answer" : "cytoskeleton",
-      "definition" : "No definition found."
+      "definition" : "The cytoskeleton is a structure that helps cells maintain their shape and internal organization, and it also provides mechanical support that enables cells to carry out essential functions like division and movement"
     },
     { 
       "level": 4,
       "stage": 7,
       "id" :28,
       "answer" : "granules",
-      "definition" : "No definition found."
+      "definition" : " In cell biology, a granule is a small particle. It can be any structure barely visible by light microscopy. The term is most often used to describe a secretory vesicle."
     },
     { 
       "level": 5,
       "stage": 1,
       "id" :29,
       "answer" : "plastid",
-      "definition" : "No definition found."
+      "definition" : "Plastids are double-membrane organelles which are found in the cells of plants and algae. Plastids are responsible for manufacturing and storing food. These often contain pigments that are used in photosynthesis and different types of pigments that can change the colour of the cell."
     },
     { 
       "level": 5,
       "stage": 2,
       "id" :30,
       "answer" : "chromosomes",
-      "definition" : "No definition found."
+      "definition" : "Chromosomes are structures found in the center (nucleus) of cells that carry long pieces of DNA. DNA is the material that holds genes. It is the building block of the human body. Chromosomes also contain proteins that help DNA exist in the proper form."
     },
     { 
       "level": 5,
       "stage": 3,
       "id" :31,
       "answer" : "cilia",
-      "definition" : "No definition found."
+      "definition" : "Cilia are microtubule-based hair-like organelles that extend from the surface of almost all cell types of the human body."
     },
     { 
       "level": 5,
       "stage": 4,
       "id" :32,
       "answer" : "microfilaments",
-      "definition" : "No definition found."
+      "definition" : "Microfilaments, also called actin filaments, are protein filaments in the cytoplasm of eukaryotic cells that form part of the cytoskeleton. They are primarily composed of polymers of actin, but are modified by and interact with numerous other proteins in the cell."
     },
     { 
       "level": 5,
       "stage": 5,
       "id" :33,
       "answer" : "flagella",
-      "definition" : "No definition found."
+      "definition" : "A flagella is a hairlike structure that acts primarily as an organelle of locomotion in the cells of many living organisms. Flagella, characteristic of the protozoan group Mastigophora, also occur on the gametes of algae, fungi, mosses, slime molds, and animals."
     },
     { 
       "level": 5,
       "stage": 6,
       "id" :34,
       "answer" : "centrosome",
-      "definition" : "No definition found."
+      "definition" : "In cell biology, the centrosome is an organelle that serves as the main microtubule organizing center (MTOC) of the animal cell, as well as a regulator of cell-cycle progression. The centrosome provides structure for the cell."
     },
     { 
       "level": 5,
       "stage": 7,
       "id" :35,
       "answer" : "vesicles",
-      "definition" : "No definition found."
+      "definition" : "Vesicles are small fluid-filled sacs or blisters that can appear on your skin. The fluid inside these sacs may be clear, white, yellow, or mixed with blood. Vesicles are fluid-filled lesions less than 5 mm (1/2 cm)."
     },
     { 
       "level": 6,
       "stage": 1,
       "id" :36,
       "answer" : "eukaryotic",
-      "definition" : "No definition found."
+      "definition" : "Eukaryotes are organisms whose cells contain a nucleus and other membrane-bound organelles. There is a wide range of eukaryotic organisms, including all animals, plants, fungi, and protists, as well as most algae. Eukaryotes may be either single-celled or multicellular."
     },
     { 
       "level": 6,
       "stage": 2,
       "id" :37,
       "answer" : "prokaryotic",
-      "definition" : "No definition found."
+      "definition" : "Prokaryotes are organisms whose cells lack a nucleus and other organelles. Prokaryotes are divided into two distinct groups: the bacteria and the archaea, which scientists believe have unique evolutionary lineages. Most prokaryotes are small, single-celled organisms that have a relatively simple structure."
     },
     { 
       "level": 6,
       "stage": 3,
       "id" :38,
       "answer" : "bacteria",
-      "definition" : "No definition found."
+      "definition" : "Bacteria are small single-celled organisms. Bacteria are found almost everywhere on Earth and are vital to the planet's ecosystems. Some species can live under extreme conditions of temperature and pressure. The human body is full of bacteria, and in fact is estimated to contain more bacterial cells than human cells."
     },
     { 
       "level": 6,
       "stage": 4,
       "id" :39,
       "answer" : "archaea",
-      "definition" : "No definition found."
+      "definition" : "An archaea is a group of single-celled prokaryotic organisms (that is, organisms whose cells lack a defined nucleus) that have distinct molecular characteristics separating them from bacteria (the other, more prominent group of prokaryotes) as well as from eukaryotes (organisms, including plants and animals, whose cells contain a defined nucleus)."
     },
     { 
       "level": 6,
       "stage": 5,
       "id" :40,
       "answer" : "fungi",
-      "definition" : "No definition found."
+      "definition" : "A fungus is any member of the group of eukaryotic organisms that includes microorganisms such as yeasts and molds, as well as the more familiar mushrooms."
     },
     { 
       "level": 6,
       "stage": 6,
       "id" :41,
       "answer" : "protists",
-      "definition" : "No definition found."
+      "definition" : "A protist is any eukaryotic organism that is not an animal, plant, or fungus. While it is likely that protists share a common ancestor, the exclusion of other eukaryotes means that protists do not form a natural group, or clade."
     },
     { 
       "level": 6,
       "stage": 7,
       "id" :42,
       "answer" : "algae",
-      "definition" : "No definition found."
+      "definition" : "Algae is an informal term for a large and diverse group of photosynthetic eukaryotic organisms. It is a polyphyletic grouping that includes species from multiple distinct clades."
     },
     { 
       "level": 7,
       "stage": 1,
       "id" :43,
       "answer" : "nucleoid",
-      "definition" : "No definition found."
+      "definition" : "The nucleoid, which means nucleus-like, is an irregularly shaped area containing the genetic material of the prokaryotic cell. It is different from the nucleus of a eukaryotic cell in a way that the genetic material is not enclosed in a membrane to separate it from the cytoplasm."
     },
     { 
       "level": 7,
       "stage": 2,
       "id" :44,
       "answer" : "capsule",
-      "definition" : "No definition found."
+      "definition" : " The bacteria capsule is a large structure common to many bacteria. It is a polysaccharide layer that lies outside the cell envelope, and is thus deemed part of the outer envelope of a bacterial cell. It is a well-organized layer, not easily washed off, and it can be the cause of various diseases"
     },
     { 
       "level": 7,
       "stage": 3,
       "id" :45,
       "answer" : "histone",
-      "definition" : "No definition found."
+      "definition" : "In biology, histones are highly basic proteins abundant in lysine and arginine residues that are found in eukaryotic cell nuclei. They act as spools around which DNA winds to create structural units called nucleosomes."
     },
     { 
       "level": 7,
       "stage": 4,
       "id" :46,
       "answer" : "gametes",
-      "definition" : "No definition found."
+      "definition" : "Gametes are an organism's reproductive cells. They are also referred to as sex cells. Female gametes are called ova or egg cells, and male gametes are called sperm. Gametes are haploid cells, and each cell carries only one copy of each chromosome."
     },
     { 
       "level": 7,
       "stage": 5,
       "id" :47,
       "answer" : "plasmids",
-      "definition" : "No definition found."
+      "definition" : "A plasmid is a small, often circular DNA molecule found in bacteria and other cells. Plasmids are separate from the bacterial chromosome and replicate independently of it. They generally carry only a small number of genes, notably some associated with antibiotic resistance."
     },
     { 
       "level": 7,
       "stage": 6,
       "id" :48,
       "answer" : "fimbriae",
-      "definition" : "No definition found."
+      "definition" : "Fimbriae are long filamentous polymeric protein structures located at the surface of bacterial cells. They enable the bacteria to bind to specific receptor structures and thereby to colonize specific surfaces."
     },
     { 
       "level": 7,
       "stage": 7,
       "id" :49,
       "answer" : "recombination",
-      "definition" : "No definition found."
+      "definition" : "Genetic recombination is the exchange of genetic material between different organisms which leads to production of offspring with combinations of traits that differ from those found in either parent."
     },  
     { 
       "level": 8,
       "stage": 1,
       "id" :50,
       "answer" : "telophase",
-      "definition" : "No definition found."
+      "definition" : "Telophase is the final stage in both meiosis and mitosis in a eukaryotic cell. During telophase, the effects of prophase and prometaphase are reversed."
     },
     { 
       "level": 8,
       "stage": 2,
       "id" :51,
       "answer" : "anaphase",
-      "definition" : "No definition found."
+      "definition" : "Anaphase is the fourth phase of mitosis, the process that separates the duplicated genetic material carried in the nucleus of a parent cell into two identical daughter cells."
     },
     { 
       "level": 8,
       "stage": 3,
       "id" :52,
       "answer" : "prophase",
-      "definition" : "No definition found."
+      "definition" : "Prophase is the first phase of mitosis, the process that separates the duplicated genetic material carried in the nucleus of a parent cell into two identical daughter cells. During prophase, the complex of DNA and proteins contained in the nucleus, known as chromatin, condenses."
     },
     { 
       "level": 8,
       "stage": 4,
       "id" :53,
       "answer" : "prometaphase",
-      "definition" : "No definition found."
+      "definition" : "Prometaphase is the second phase of mitosis, the process that separates the duplicated genetic material carried in the nucleus of a parent cell into two identical daughter cells. During prometaphase, the physical barrier that encloses the nucleus, called the nuclear envelope, breaks down."
     },
     { 
       "level": 8,
       "stage": 5,
       "id" :54,
       "answer" : "metaphase",
-      "definition" : "No definition found."
+      "definition" : "Metaphase is a stage of mitosis in the eukaryotic cell cycle in which chromosomes are at their second-most condensed and coiled stage. These chromosomes, carrying genetic information, align in the equator of the cell before being separated into each of the two daughter cells."
     },
     { 
       "level": 8,
       "stage": 6,
       "id" :55,
       "answer" : "cytokinesis",
-      "definition" : "No definition found."
+      "definition" : "Cytokinesis is the part of the cell division process during which the cytoplasm of a single eukaryotic cell divides into two daughter cells. Cytoplasmic division begins during or after the late stages of nuclear division in mitosis and meiosis."
     },
     { 
       "level": 8,
       "stage": 7,
       "id" :56,
       "answer" : "interphase",
-      "definition" : "No definition found."
-    },{ 
+      "definition" : "Interphase is the portion of the cell cycle that is not accompanied by gross changes under the microscope, and includes the G1, S and G2 phases. During interphase, the cell grows, replicates its DNA and prepares for mitosis."
+    },
+    { 
       "level": 9,
       "stage": 1,
       "id" :57,
       "answer" : "dna",
-      "definition" : "No definition found."
+      "definition" : "Deoxyribonucleic acid (DNA) is a molecule that contains the biological instructions that make each species unique. DNA, along with the instructions it contains, is passed from adult organisms to their offspring during reproduction."
     },
     { 
       "level": 9,
       "stage": 2,
       "id" :58,
       "answer" : "rna",
-      "definition" : "No definition found."
+      "definition" : "Ribonucleic acid (RNA) biology has emerged as one of the most influential areas in modern biology and biomedicine. The discovery of numerous new classes of RNAs and their functions in a wide spectrum of biological processes has revolutionized molecular biology, with profound implications for clinical sciences."
     },
     { 
       "level": 9,
       "stage": 3,
       "id" :59,
       "answer" : "mitosis",
-      "definition" : "No definition found."
+      "definition" : "Mitosis is the process in which a eukaryotic cell nucleus splits in two, followed by division of the parent cell into two daughter cells. The word 'mitosis' means 'threads', and it refers to the threadlike appearance of chromosomes as the cell prepares to divide."
     },
     { 
       "level": 9,
       "stage": 4,
       "id" :60,
       "answer" : "meiosis",
-      "definition" : "No definition found."
+      "definition" : "Meiosis is a special type of cell division of germ cells in sexually-reproducing organisms used to produce the gametes, such as sperm or egg cells. It involves two rounds of division that ultimately result in four cells with only one copy of each chromosome."
     },
     { 
       "level": 9,
       "stage": 5,
       "id" :61,
       "answer" : "kinetochore",
-      "definition" : "No definition found."
+      "definition" : "The kinetochore is a large proteinaceous structure that mediates interactions between chromosomal DNA and spindle-microtubule polymers. More than 80 kinetochore proteins have been identified using various genetic, functional, cell biology and proteomics approaches."
     },
     { 
       "level": 9,
       "stage": 6,
       "id" :62,
       "answer" : "microtubules",
-      "definition" : "No definition found."
+      "definition" : "Microtubules are longer filaments that are constantly assembling and disassembling; they play a crucial role in moving the daughter chromosomes to the newly forming daughter cells during mitosis, and bundles of microtubules form the cilia and flagella found in protozoans and in the cells of some multicellular animals."
     },
     { 
       "level": 9,
       "stage": 7,
       "id" :63,
       "answer" : "centromere",
-      "definition" : "No definition found."
+      "definition" : "A Centromere, structure in a chromosome that holds together the two chromatids (the daughter strands of a replicated chromosome). The centromere is the point of attachment of the kinetochore, a structure to which the microtubules of the mitotic spindle become anchored."
     },{ 
       "level": 10,
       "stage": 1,
       "id" :64,
       "answer" : "diffusion",
-      "definition" : "No definition found."
+      "definition" : "Diffusion is the net movement of molecules from an area where they are at a higher concentration to areas where they are at a lower concentration. This is due to the random movement of the molecules. The difference in the concentration of a substance between two areas is called the concentration gradient."
     },
     { 
       "level": 10,
       "stage": 2,
       "id" :65,
       "answer" : "endocytosis",
-      "definition" : "No definition found."
+      "definition" : "Endocytosis is the process by which cells take in substances from outside of the cell by engulfing them in a vesicle. These can include things like nutrients to support the cell or pathogens that immune cells engulf and destroy."
     },
     { 
       "level": 10,
       "stage": 3,
       "id" :66,
       "answer" : "exocytosis",
-      "definition" : "No definition found."
+      "definition" : "Exocytosis is the process by which cells move materials from within the cell into the extracellular fluid. Exocytosis occurs when a vesicle fuses with the plasma membrane, allowing its contents to be released outside the cell."
     },
     { 
       "level": 10,
       "stage": 4,
       "id" :67,
       "answer" : "glycoprotein",
-      "definition" : "No definition found."
+      "definition" : "Glycoproteins are molecules that comprise protein and carbohydrate chains that are involved in many physiological functions including immunity. Many viruses have glycoproteins that help them enter bodily cells, but can also serve to be important therapeutic or preventive targets."
     },
     { 
       "level": 10,
       "stage": 5,
       "id" :68,
       "answer" : "glycolipid",
-      "definition" : "No definition found."
+      "definition" : "A glycolipid is a carbohydrate that is covalently linked to a lipid. Glycolipids are biomolecular structures in the phospholipid bilayer of the cell membrane whose carbohydrate component extends to the outside of the cell. Glycolipids are essential in providing stability of the plasma membrane."
     },
     { 
       "level": 10,
       "stage": 6,
       "id" :69,
       "answer" : "passive",
-      "definition" : "No definition found."
+      "definition" : "Passive transport is a type of membrane transport that does not require energy to move substances across cell membranes."
     },
     { 
       "level": 10,
       "stage": 7,
       "id" :70,
       "answer" : "active",
-      "definition" : "No definition found."
+      "definition" : "In cellular biology, active transport is the movement of molecules across a cell membrane from a region of lower concentration to a region of higher concentration—against the concentration gradient. Active transport requires cellular energy to achieve this movement."
     },{ 
       "level": 11,
       "stage": 1,
       "id" :71,
       "answer" : "carbohydrates",
-      "definition" : "No definition found."
+      "definition" : "A carbohydrate is an organic compound such as sugar or starch, and is used to store energy. Like most organic compounds, carbohydrates are built of small, repeating units that form bonds with each other to make a larger molecule."
     },
     { 
       "level": 11,
       "stage": 2,
       "id" :72,
       "answer" : "lipids",
-      "definition" : "No definition found."
+      "definition" : "A lipid is any of various organic compounds that are insoluble in water. They include fats, waxes, oils, hormones, and certain components of membranes and function as energy-storage molecules and chemical messengers."
     },
     { 
       "level": 11,
       "stage": 3,
       "id" :73,
       "answer" : "protein",
-      "definition" : "No definition found."
+      "definition" : "A protein is a naturally occurring, extremely complex substance that consists of amino acid residues joined by peptide bonds. Proteins are present in all living organisms and include many essential biological compounds such as enzymes, hormones, and antibodies."
     },
     { 
       "level": 11,
       "stage": 4,
       "id" :74,
       "answer" : "monosaccharides",
-      "definition" : "No definition found."
+      "definition" : "In biology and biochemistry, a monosaccharide is a simple sugar that constitutes the building blocks of a more complex form of sugars such as oligosaccharides and polysaccharides. Examples are fructose, glucose, and ribose. The term monosaccharide etymologically means 'single saccharide'."
     },
     { 
       "level": 11,
       "stage": 5,
       "id" :75,
       "answer" : "disaccharides",
-      "definition" : "No definition found."
+      "definition" : "Disaccharide, also called double sugar, any substance that is composed of two molecules of simple sugars (monosaccharides) linked to each other. Disaccharides are crystalline water-soluble compounds."
     },
     { 
       "level": 11,
       "stage": 6,
       "id" :76,
       "answer" : "macromolecules",
-      "definition" : "No definition found."
+      "definition" : "In chemistry and biology, a macromolecule is defined as a molecule with a very large number of atoms. Macromolecules typically have more than 100 component atoms. Macromolecules exhibit very different properties from smaller molecules, including their subunits, when applicable."
     },
     { 
       "level": 11,
       "stage": 7,
       "id" :77,
       "answer" : "micromolecules",
-      "definition" : "No definition found."
+      "definition" : "Micromolecule is a molecule that is relatively smaller (than a macromolecule), or of low molecular weight that may regulate a biological process."
     },{ 
       "level": 12,
       "stage": 1,
       "id" :78,
       "answer" : "starch",
-      "definition" : "No definition found."
+      "definition" : "NStarch is a polysaccharide consisting of a large number of glucose monomers joined together by glycosidic bonds. It occurs especially in seeds, bulbs, and tubers."
     },
     { 
       "level": 12,
       "stage": 2,
       "id" :79,
       "answer" : "glycogen",
-      "definition" : "No definition found."
+      "definition" : "Glycogen is a glucose polysaccharide occurring in most mammalian and non-mammalian cells, in microorganisms, and even in some plants. It is an important and quickly mobilized source of stored glucose. In vertebrates it is stored mainly in the liver as a reserve of glucose for other tissues."
     },
     { 
       "level": 12,
       "stage": 3,
       "id" :80,
       "answer" : "cellulose",
-      "definition" : "No definition found."
+      "definition" : " Cellulose is a molecule, consisting of hundreds – and sometimes even thousands – of carbon, hydrogen and oxygen atoms. Cellulose is the main substance in the walls of plant cells, helping plants to remain stiff and upright. Humans cannot digest cellulose, but it is important in the diet as fibre."
     },
     { 
       "level": 12,
       "stage": 4,
       "id" :81,
       "answer" : "hormones",
-      "definition" : "No definition found."
+      "definition" : "A hormone is any member of a class of signaling molecules in multicellular organisms, that are transported by intricate biological processes to distant organs to regulate physiology and behavior. Hormones are required for the correct development of animals, plants and fungi."
     },
     { 
       "level": 12,
       "stage": 5,
       "id" :82,
       "answer" : "steroids",
-      "definition" : "No definition found."
+      "definition" : "A steroid is a biologically active organic compound with four rings arranged in a specific molecular configuration. Steroids have two principal biological functions: as important components of cell membranes which alter membrane fluidity; and as signaling molecules."
     },
     { 
       "level": 12,
       "stage": 6,
       "id" :83,
       "answer" : "enzymes",
-      "definition" : "No definition found."
+      "definition" : " Enzymes are proteins that act as biological catalysts. Catalysts accelerate chemical reactions. The molecules upon which enzymes may act are called substrates, and the enzyme converts the substrates into different molecules known as products."
     },
     { 
       "level": 12,
       "stage": 7,
       "id" :84,
       "answer" : "wax",
-      "definition" : "No definition found."
+      "definition" : "A plastic substance deposited by insects or obtained from plants. Waxes are esters of various fatty acids with higher, usually monohydric alcohols. The wax of the pharmacy is principally yellow wax (beeswax), the material of which honeycomb is made."
     },{ 
       "level": 13,
       "stage": 1,
       "id" :85,
       "answer" : "phosphate",
-      "definition" : "No definition found."
+      "definition" : "As a biological molecule, Phosphate is composed of phosphorus and oxygen and plays a major role in biological processes of many organisms."
     },
     { 
       "level": 13,
       "stage": 2,
       "id" :86,
       "answer" : "ribose",
-      "definition" : "No definition found."
+      "definition" : "Ribose, also called D-ribose, five-carbon sugar found in RNA (ribonucleic acid), where it alternates with phosphate groups to form the “backbone” of the RNA polymer and binds to nitrogenous bases."
     },
     { 
       "level": 13,
       "stage": 3,
       "id" :87,
       "answer" : "adenine",
-      "definition" : "No definition found."
+      "definition" : "Adenine (A) is one of four chemical bases in DNA, with the other three being cytosine (C), guanine (G), and thymine (T). Within the DNA molecule, adenine bases located on one strand form chemical bonds with thymine bases on the opposite strand. "
     },
     { 
       "level": 13,
       "stage": 4,
       "id" :88,
-      "answer" : "hydrolosis",
-      "definition" : "No definition found."
+      "answer" : "hydrolysis",
+      "definition" : "Biological hydrolysis is the cleavage of biomolecules where a water molecule is consumed to effect the separation of a larger molecule into component parts."
     },
     { 
       "level": 13,
       "stage": 5,
       "id" :89,
       "answer" : "phosphorylation",
-      "definition" : "No definition found."
+      "definition" : " In biology, phosphorylation is the transfer of phosphate molecules to a protein. This transfer prepares the proteins for specialized tasks in a living being."
     },
     { 
       "level": 13,
       "stage": 6,
       "id" :90,
       "answer" : "atp",
-      "definition" : "No definition found."
+      "definition" : "adenosine triphosphate (ATP), energy-carrying molecule found in the cells of all living things. ATP captures chemical energy obtained from the breakdown of food molecules and releases it to fuel other cellular processes."
     },
     { 
       "level": 13,
       "stage": 7,
       "id" :91,
       "answer" : "adp",
-      "definition" : "No definition found."
+      "definition" : "Adenosine diphosphate (ADP), also known as adenosine pyrophosphate (APP), is an important organic compound in metabolism and is essential to the flow of energy in living cells."
     },{ 
       "level": 14,
       "stage": 1,
       "id" :92,
       "answer" : "sugar",
-      "definition" : "No definition found."
+      "definition" : "During the process of photosynthesis, cells use carbon dioxide and energy from the Sun to make sugar molecules and oxygen. These sugar molecules are the basis for more complex molecules made by the photosynthetic cell, such as glucose."
     },
     { 
       "level": 14,
       "stage": 2,
       "id" :93,
       "answer" : "stroma",
-      "definition" : "No definition found."
+      "definition" : "Stroma, in botany, refers to the colorless fluid surrounding the grana within the chloroplast."
     },
     { 
       "level": 14,
       "stage": 3,
       "id" :94,
       "answer" : "thylakoid",
-      "definition" : "No definition found."
+      "definition" : "A thylakoid is any of the membranous discs of lamellae within plant chloroplasts that are composed of protein and lipid and are the sites of the photochemical reactions of photosynthesis."
     },
     { 
       "level": 14,
       "stage": 4,
       "id" :95,
       "answer" : "photosynthesis",
-      "definition" : "No definition found."
+      "definition" : "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy that, through cellular respiration, can later be released to fuel the organism's activities."
     },
     { 
       "level": 14,
       "stage": 5,
       "id" :96,
       "answer" : "carbon_dioxide",
-      "definition" : "No definition found."
+      "definition" : "During photosynthesis, plants take in carbon dioxide (CO2) from the air and soil. The carbon dioxide is reduced, meaning it gains electrons."
     },
     { 
       "level": 14,
       "stage": 6,
       "id" :97,
       "answer" : "water",
-      "definition" : "No definition found."
+      "definition" : "During photosynthesis, plants take in water (H2O) from the air and soil. Within the plant cell, the water is oxidized, meaning it loses electrons."
     },
     { 
       "level": 14,
       "stage": 7,
       "id" :98,
       "answer" : "sunlight",
-      "definition" : "No definition found."
+      "definition" : " The energy from light causes a chemical reaction that breaks down the molecules of carbon dioxide and water and reorganizes them to make the sugar (glucose) and oxygen gas. "
     },{ 
       "level": 15,
       "stage": 1,
       "id" :99,
       "answer" : "glycolisis",
-      "definition" : "No definition found."
+      "definition" : "Glycolysis is a cytoplasmic pathway which breaks down glucose into two three-carbon compounds and generates energy. Glucose is trapped by phosphorylation, with the help of the enzyme hexokinase."
     },
     { 
       "level": 15,
       "stage": 2,
       "id" :100,
       "answer" : "chemiosmosis",
-      "definition" : "No definition found."
+      "definition" : "Chemiosmosis is the movement of ions across a semipermeable membrane bound structure, down their electrochemical gradient."
     },
     { 
       "level": 15,
       "stage": 3,
       "id" :101,
       "answer" : "pyruvate",
-      "definition" : "No definition found."
+      "definition" : "Pyruvate is an important chemical compound in biochemistry. It is the output of the metabolism of glucose known as glycolysis. One molecule of glucose breaks down into two molecules of pyruvate, which are then used to provide further energy, in one of two ways."
     },
     { 
       "level": 15,
       "stage": 4,
       "id" :102,
       "answer" : "inhalation",
-      "definition" : "No definition found."
+      "definition" : "During inhalation, the lungs expand with air and oxygen diffuses across the lung's surface, entering the bloodstream."
     },
     { 
       "level": 15,
       "stage": 5,
       "id" :103,
       "answer" : "exhalation",
-      "definition" : "No definition found."
+      "definition" : "During exhalation, the lungs expel air and lung volume decreases."
     },
     { 
       "level": 15,
       "stage": 6,
       "id" :104,
       "answer" : "anabolism",
-      "definition" : "No definition found."
+      "definition" : " Anabolism involves synthetic reactions of metabolism. It includes building up large complex molecules from simple molecules. The anabolic state represents the growth of muscles, bones, and other body structures."
     },
     { 
       "level": 15,
       "stage": 7,
       "id" :105,
       "answer" : "catabolism",
-      "definition" : "No definition found."
+      "definition" : "Catabolism is the branch of the metabolic process that breaks down complex, big molecules into smaller ones, yielding energy. It is the destructive branch of the metabolism that results in the release of energy."
     }
   ]
 }

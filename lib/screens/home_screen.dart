@@ -120,7 +120,7 @@ class HomeScreen extends StatelessWidget {
                       },
                       title: 'SETTINGS',
                     ),
-                    !context.watch<GameScreenProvider>().isFinish
+                    context.watch<GameScreenProvider>().question.level >= 2
                         ? Padding(
                             padding: const EdgeInsets.only(top: 20.0),
                             child: LongButtonWidget(

@@ -193,7 +193,7 @@ class GameScreenProvider extends ChangeNotifier {
     if (index >= 0) {
       userAnswer[index] = _answer![index];
       choices.remove(userAnswer[index]);
-      int coins = getCoinsFromStorage() - 20;
+      int coins = getCoinsFromStorage() - 10;
       print(StorageUtil.putInt('coins', coins));
       _coins = coins;
       hintCount++;

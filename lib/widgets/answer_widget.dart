@@ -77,7 +77,7 @@ class AnswerWidget extends StatelessWidget {
                                               .level -
                                           1]
                                       .text,
-                                  image: 'assets/icons/warn.svg',
+                                  image: 'assets/icons/congratulations.svg',
                                   onPressed: () {
                                     Navigator.pop(context);
                                   },
