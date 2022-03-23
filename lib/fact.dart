@@ -55,8 +55,7 @@ List<Fact> facts = [
       description: 'CELL STRUCTURE PART 3'),
   Fact(
       id: 6,
-      text:
-          'There are More Bacterial Cells in the Body than Human Cells.',
+      text: 'There are More Bacterial Cells in the Body than Human Cells.',
       description: 'TYPES OF CELL'),
   Fact(
       id: 7,
@@ -80,8 +79,7 @@ List<Fact> facts = [
       description: 'TRANSPORT MECHANISMS'),
   Fact(
       id: 11,
-      text:
-          'The brain is the only carbohydrate-dependent organ in the body.',
+      text: 'The brain is the only carbohydrate-dependent organ in the body.',
       description: 'BOLOGICAL MOLECULES'),
   Fact(
       id: 12,
@@ -95,11 +93,11 @@ List<Fact> facts = [
       description: 'ATP-ADP CYCLES'),
   Fact(
       id: 14,
-      text:
-          'The green color of leaves is due to chlorophyll.',
+      text: 'The green color of leaves is due to chlorophyll.',
       description: 'PLANT'),
   Fact(
       id: 15,
-      text: 'If we don't breathe in more during exercises, our body produces lactic acid, which causes terrible pain in our muscles and joints.',
+      text:
+          'If we don\'t breathe in more during exercises, our body produces lactic acid, which causes terrible pain in our muscles and joints.',
       description: 'RESPIRATION'),
 ];
