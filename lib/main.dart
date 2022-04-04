@@ -20,6 +20,7 @@ class FourPicOneWordProviders extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
+          lazy: false,
           create: (_) => GameScreenProvider(),
         ),
         ChangeNotifierProvider(

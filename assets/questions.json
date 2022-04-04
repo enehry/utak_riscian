@@ -235,7 +235,7 @@
       "level": 5,
       "stage": 6,
       "id" :34,
-      "answer" : "centrosome",
+      "answer" : "centrosomes",
       "definition" : "In cell biology, the centrosome is an organelle that serves as the main microtubule organizing center (MTOC) of the animal cell, as well as a regulator of cell-cycle progression. The centrosome provides structure for the cell."
     },
     { 
@@ -684,7 +684,7 @@
       "level": 15,
       "stage": 1,
       "id" :99,
-      "answer" : "glycolisis",
+      "answer" : "glycolysis",
       "definition" : "Glycolysis is a cytoplasmic pathway which breaks down glucose into two three-carbon compounds and generates energy. Glucose is trapped by phosphorylation, with the help of the enzyme hexokinase."
     },
     { 
