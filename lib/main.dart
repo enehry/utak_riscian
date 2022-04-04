@@ -38,7 +38,7 @@ class FourPicOneWordProviders extends StatelessWidget {
 class FourPicsOneWord extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Loading is done, return the app:
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: context.watch<ThemeProvider>().themeData,
