@@ -60,6 +60,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/avatars/
     - assets/sounds/
     - assets/questions.json
     - assets/levels/

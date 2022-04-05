@@ -7,9 +7,8 @@ import 'package:utak_riscian/screens/qr_code_screen.dart';
 import 'package:utak_riscian/screens/settings_screen.dart';
 import 'package:utak_riscian/screens/stages_screen.dart';
 import 'package:utak_riscian/widgets/dialog_widget.dart';
-import 'package:utak_riscian/widgets/long_button_wdiget.dart';
 import 'package:provider/provider.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+import 'package:utak_riscian/widgets/long_button_wdiget.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -140,16 +139,9 @@ class HomeScreen extends StatelessWidget {
                     ),
                     LongButtonWidget(
                       onPressed: () async {
-                        PackageInfo packageInfo =
-                            await PackageInfo.fromPlatform();
-
-                        String version = packageInfo.version;
-                        String buildNumber = packageInfo.buildNumber;
-
                         Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => AboutScreen(
-                                buildNumber: buildNumber, version: version),
+                            builder: (context) => AboutScreen(),
                           ),
                         );
                       },

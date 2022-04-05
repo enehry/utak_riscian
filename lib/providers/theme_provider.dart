@@ -44,6 +44,18 @@ class ThemeProvider with ChangeNotifier {
             color: Colors.white,
             fontWeight: FontWeight.w300,
           ),
+          headline4: TextStyle(
+            fontSize: 20.0,
+            color: Color(0xFFE0E0E0),
+            fontFamily: 'Mont',
+            fontWeight: FontWeight.bold,
+          ),
+          headline6: TextStyle(
+            fontSize: 18.0,
+            color: Color(0xFFE0E0E0),
+            fontFamily: 'Mont',
+            fontWeight: FontWeight.bold,
+          ),
           bodyText1: TextStyle(
             fontSize: 14.0,
             color: Color(0xFFE0E0E0),
@@ -84,9 +96,20 @@ class ThemeProvider with ChangeNotifier {
             fontFamily: 'Mont',
             fontWeight: FontWeight.bold,
           ),
+          headline4: TextStyle(
+            fontSize: 20.0,
+            color: Color(0xFF606C38),
+            fontFamily: 'Mont',
+            fontWeight: FontWeight.bold,
+          ),
+          headline6: TextStyle(
+            fontSize: 18.0,
+            color: Color(0xFF606C38),
+            fontFamily: 'Mont',
+            fontWeight: FontWeight.bold,
+          ),
           bodyText1: TextStyle(
             fontSize: 14.0,
-
             fontWeight: FontWeight.w500,
             color: Color(0xFFfaedcd),
             fontFamily: 'Mont',
