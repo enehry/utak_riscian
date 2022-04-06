@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:utak_riscian/references_picture.dart';
 import 'package:utak_riscian/researcher.dart';
+import 'package:utak_riscian/screens/references_screen.dart';
 import 'package:utak_riscian/widgets/ResearcherWidget.dart';
+import 'package:utak_riscian/widgets/long_button_wdiget.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({Key? key}) : super(key: key);
@@ -43,35 +45,17 @@ class AboutScreen extends StatelessWidget {
                         height: 20.0,
                       ),
                       SizedBox(
-                        height: 20.0,
+                        height: 50.0,
                       ),
-                      Text(
-                        'References',
-                        style: Theme.of(context).textTheme.headline4,
-                      ),
-                      SizedBox(
-                        height: 20.0,
-                      ),
-                      Column(
-                        children: [
-                          Text('Pictures',
-                              style: Theme.of(context).textTheme.headline4),
-                          SizedBox(height: 10.0),
-                          ...referencesPictures.map((e) => Text(e)),
-                          SizedBox(
-                            height: 20.0,
-                          )
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Text('Definition',
-                              style: Theme.of(context).textTheme.headline4),
-                          SizedBox(height: 10.0),
-                          ...referencesPictures.map((e) => Text(e)),
-                          SizedBox(height: 20.0),
-                        ],
-                      ),
+                      LongButtonWidget(
+                          onPressed: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => ReferencesScreen(),
+                              ),
+                            );
+                          },
+                          title: 'References')
                     ],
                   ),
                 ),

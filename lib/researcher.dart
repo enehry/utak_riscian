@@ -1,5 +1,5 @@
 // enum position left & right
-enum AlignPos { left, right }
+enum AlignPos { left, right, center }
 
 class Researcher {
   final AlignPos align;
@@ -37,6 +37,13 @@ List<Researcher> researchers = [
   Researcher(
     align: AlignPos.left,
     name: 'John Doe',
+    avatar: 'assets/avatars/logo.png',
+    position: 'Position',
+    section: 'Section',
+  ),
+  Researcher(
+    align: AlignPos.center,
+    name: 'Juana Garcia',
     avatar: 'assets/avatars/logo.png',
     position: 'Position',
     section: 'Section',
